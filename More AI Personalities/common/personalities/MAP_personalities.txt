@@ -1,14 +1,3 @@
-##### Types:
-# honorbound -> Cares about honor and martial prowess above all else
-# capitalist -> Cares about trade and material profit above all else
-# hegemon -> Cares about the superiority of their own empire above all else
-# ideologue -> Cares about combating opposing ethoses above all else
-# isolationist -> Cares about maintaining their isolation from other empires above all else
-# federation_builder -> Cares about bringing different species together in a federation above all else
-# propagator -> Cares about the propagation of its species above all else
-# purifier -> Cares about purifying the galaxy of other species above all else
-# explorer -> Cares about exploring the galaxy and making scientific/spiritual discoveries above all else
-
 ##### Behaviours:
 # conqueror -> Will they conquer planets from other empires?
 # subjugator -> Will they vassalise other empires?
@@ -22,6 +11,9 @@
 # robot_exploiter -> Will they use robots for menial labor?
 # robot_liberator -> Will they give rights to robots?
 # migrator -> Will they want to migrate to other empires?
+# propagator -> Will they only get aggressive once boxed in?
+# ideologue -> Will they be extra-aggressive against other ethoses?
+# multispecies -> Will they give rights to aliens?
 
 ##### Modifiers:
 # aggressiveness -> Chance of declaring wars
@@ -38,7 +30,7 @@
 
 
 map_patronizing_colonizers = {
-	type = hegemon
+	#type = hegemon
 
 	aggressiveness = 1.5
 	trade_willingness = 1.2
@@ -66,6 +58,9 @@ map_patronizing_colonizers = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = no
 	}
 	
 	allow = {
@@ -88,7 +83,7 @@ map_patronizing_colonizers = {
 }
 
 map_savage_raiders = { 
-	type = honorbound
+	#type = honorbound
 	
 	aggressiveness = 2.0
 	trade_willingness = 1.3
@@ -116,6 +111,9 @@ map_savage_raiders = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = no
 	}
 	
 	allow = {
@@ -149,7 +147,7 @@ map_savage_raiders = {
 
 #DEUS VULT
 map_defenders_of_the_faith = { 
-	type = honorbound
+	#type = honorbound
 
 	aggressiveness = 0.8
 	trade_willingness = 0.7
@@ -177,6 +175,9 @@ map_defenders_of_the_faith = {
 		robot_exploiter = no
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
 	}
 	
 	allow = {
@@ -225,7 +226,7 @@ map_defenders_of_the_faith = {
 
 #like... totally radical man...
 map_carefree_hippies = {
-	type = federation_builder
+	#type = federation_builder
 
 	aggressiveness = 0.5 # will only attack to liberate
 	trade_willingness = 1.1	
@@ -253,6 +254,9 @@ map_carefree_hippies = {
 		robot_exploiter = no
 		robot_liberator = yes
 		migrator = yes
+		propagator = no
+		ideologue = yes
+		multispecies = yes
 	}
 	
 	allow = {
@@ -297,7 +301,7 @@ map_carefree_hippies = {
 }
 
 map_studious_builders = { 
-	type = capitalist
+	#type = capitalist
 
 	aggressiveness = 0.7
 	trade_willingness = 0.9
@@ -325,6 +329,9 @@ map_studious_builders = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = no
 	}
 	
 	allow = {
@@ -360,7 +367,7 @@ map_studious_builders = {
 
 #Bioshock
 map_hedonistic_visionaries = { 
-	type = ideologue
+	#type = ideologue
 
 	aggressiveness = 0.8
 	trade_willingness = 1.0
@@ -388,6 +395,9 @@ map_hedonistic_visionaries = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
 	}
 	
 	allow = {
@@ -443,7 +453,7 @@ map_hedonistic_visionaries = {
 }
 
 map_generous_philanthropists = {
-	type = federation_builder
+	#type = federation_builder
 
 	aggressiveness = 0.85 # will only attack to liberate
 	trade_willingness = 1.1	
@@ -470,7 +480,10 @@ map_generous_philanthropists = {
 		infiltrator = yes
 		robot_exploiter = yes
 		robot_liberator = yes
-		migrator = no
+		migrator = yes
+		propagator = no
+		ideologue = yes
+		multispecies = yes
 	}
 	
 	allow = {
@@ -529,7 +542,7 @@ map_generous_philanthropists = {
 
 #millennials sort of?
 map_adventure_seekers = { 
-	type = explorer
+	#type = explorer
 
 	aggressiveness = 0.75
 	trade_willingness = 1.2
@@ -557,6 +570,9 @@ map_adventure_seekers = {
 		robot_exploiter = yes
 		robot_liberator = yes
 		migrator = yes
+		propagator = no
+		ideologue = yes
+		multispecies = yes
 	}
 	
 	allow = {
@@ -609,7 +625,7 @@ map_adventure_seekers = {
 
 #pip pip cherio and Winston Churchill
 map_splendid_isolationists = {
-	type = isolationist
+	#type = isolationist
 	
 	aggressiveness = 0.7
 	trade_willingness = 0.95
@@ -637,6 +653,9 @@ map_splendid_isolationists = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
 	}
 
 	
@@ -675,7 +694,7 @@ map_splendid_isolationists = {
 }
 
 map_psychotic_hordes = { 
-	type = purifier
+	#type = purifier
 	
 	aggressiveness = 3.0
 	trade_willingness = 0.0
@@ -703,6 +722,9 @@ map_psychotic_hordes = {
 		robot_exploiter = no
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = no
 	}
 	
 	allow = {
@@ -737,7 +759,7 @@ map_psychotic_hordes = {
 
 #Big Brother is watching
 map_totalitarian_patriots = {
-	type = purifier
+	#type = purifier
 	
 	aggressiveness = 1.5
 	trade_willingness = 0.2
@@ -765,6 +787,9 @@ map_totalitarian_patriots = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
 	}
 
 	
@@ -796,7 +821,7 @@ map_totalitarian_patriots = {
 
 #Imp Japan
 map_insecure_imitators = { 
-	type = hegemon
+	#type = hegemon
 
 	aggressiveness = 1.2
 	trade_willingness = 1.1
@@ -824,6 +849,9 @@ map_insecure_imitators = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = no
+		multispecies = no
 	}
 	
 	allow = {
@@ -868,7 +896,7 @@ map_insecure_imitators = {
 }
 
 map_efficient_bureaucrats = {
-	type = capitalist
+	#type = capitalist
 
 	aggressiveness = 0.2
 	trade_willingness = 1.3
@@ -896,6 +924,9 @@ map_efficient_bureaucrats = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = yes
 	}
 	
 	allow = {
@@ -957,7 +988,7 @@ map_efficient_bureaucrats = {
 
 #viets
 map_guerilla_fighters = { 
-	type = isolationist
+	#type = isolationist
 
 	aggressiveness = 0.5
 	trade_willingness = 1.1
@@ -985,6 +1016,9 @@ map_guerilla_fighters = {
 		robot_exploiter = no
 		robot_liberator = no
 		migrator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
 	}
 	
 	allow = {
@@ -1012,7 +1046,7 @@ map_guerilla_fighters = {
 
 #khitan
 map_civilized_nomads = {
-	type = explorer
+	#type = explorer
 	
 	aggressiveness = 1.5
 	trade_willingness = 1.3
@@ -1040,6 +1074,9 @@ map_civilized_nomads = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = yes
+		propagator = no
+		ideologue = no
+		multispecies = yes
 	}
 
 	
@@ -1078,7 +1115,7 @@ map_civilized_nomads = {
 
 #slave traders
 map_slave_traders = {
-	type = capitalist
+	#type = capitalist
 	
 	aggressiveness = 0.8
 	trade_willingness = 1.2
@@ -1106,6 +1143,9 @@ map_slave_traders = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = no
 	}
 
 	
@@ -1141,7 +1181,7 @@ map_slave_traders = {
 
 #Ottoman Empire
 map_sublime_porte = {
-	type = hegemon
+	#type = hegemon
 	
 	aggressiveness = 1.2
 	trade_willingness = 1.2
@@ -1169,6 +1209,9 @@ map_sublime_porte = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = no
+		propagator = no
+		ideologue = no
+		multispecies = yes
 	}
 
 	
@@ -1217,7 +1260,7 @@ map_sublime_porte = {
 }
 
 map_enterprising_corsairs = {
-	type = honorbound
+	#type = honorbound
 	
 	aggressiveness = 1.3
 	trade_willingness = 1.1
@@ -1245,6 +1288,9 @@ map_enterprising_corsairs = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = yes
+		propagator = no
+		ideologue = no
+		multispecies = yes
 	}
 
 	
@@ -1298,7 +1344,7 @@ map_enterprising_corsairs = {
 
 
 map_slave_soldiers = { 
-	type = hegemon
+	#type = hegemon
 
 	aggressiveness = 1.3
 	trade_willingness = 1.0
@@ -1326,6 +1372,9 @@ map_slave_soldiers = {
 		robot_exploiter = yes
 		robot_liberator = no
 		migrator = yes
+		propagator = no
+		ideologue = no
+		multispecies = yes
 	}
 	
 	allow = {
@@ -1354,7 +1403,7 @@ map_slave_soldiers = {
 
 
 map_warrior_mystics = { 
-	type = honorbound
+	#type = honorbound
 
 	aggressiveness = 1.0
 	trade_willingness = 1.0
@@ -1382,6 +1431,9 @@ map_warrior_mystics = {
 		robot_exploiter = no
 		robot_liberator = yes
 		migrator = yes
+		propagator = yes
+		ideologue = yes
+		multispecies = yes
 	}
 	
 	allow = {
