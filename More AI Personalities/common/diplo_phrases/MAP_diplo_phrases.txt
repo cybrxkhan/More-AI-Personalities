@@ -1,0 +1,3753 @@
+greetings = {
+
+	### AI Personality Greetings
+
+	# map_patronizing_colonizers
+	PC_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PC_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PC_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PC_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	PC_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PC_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PC_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PC_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	PC_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PC_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PC_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PC_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			is_at_war_with = FROM
+		}
+	}
+	PC_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			is_at_war_with = FROM
+		}
+	}
+	PC_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			is_at_war_with = FROM
+		}
+	}
+	PC_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_patronizing_colonizers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	
+
+	# map_savage_raiders
+	SR_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SR_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SR_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SR_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	SR_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SR_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SR_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SR_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	SR_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SR_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SR_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SR_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			is_at_war_with = FROM
+		}
+	}
+	SR_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			is_at_war_with = FROM
+		}
+	}
+	SR_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			is_at_war_with = FROM
+		}
+	}
+	SR_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_savage_raiders
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_defenders_of_the_faith
+	DOTF_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	DOTF_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	DOTF_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	DOTF_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	DOTF_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	DOTF_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	DOTF_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	DOTF_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	DOTF_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	DOTF_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	DOTF_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	DOTF_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			is_at_war_with = FROM
+		}
+	}
+	DOTF_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			is_at_war_with = FROM
+		}
+	}
+	DOTF_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			is_at_war_with = FROM
+		}
+	}
+	DOTF_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_defenders_of_the_faith
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+
+	
+
+	# map_carefree_hippies
+	CH_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CH_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CH_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CH_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	CH_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CH_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CH_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CH_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	CH_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CH_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CH_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CH_WAR_GREETING_01 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			is_at_war_with = FROM
+		}
+	}
+	CH_WAR_GREETING_02 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			is_at_war_with = FROM
+		}
+	}
+	CH_WAR_GREETING_03 = {
+		weight = {
+			weight = 10 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			is_at_war_with = FROM
+		}
+	}
+	CH_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 30 #hippies
+		}
+		trigger = {
+			has_ai_personality = map_carefree_hippies
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+
+
+	# map_studious_builders
+	SB_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SB_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SB_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SB_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	SB_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SB_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SB_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SB_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	SB_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SB_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SB_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SB_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			is_at_war_with = FROM
+		}
+	}
+	SB_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			is_at_war_with = FROM
+		}
+	}
+	SB_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			is_at_war_with = FROM
+		}
+	}
+	SB_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_studious_builders
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+
+
+	# map_hedonistic_visionaries
+	HV_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	HV_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	HV_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	HV_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	HV_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	HV_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	HV_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	HV_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	HV_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	HV_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	HV_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	HV_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			is_at_war_with = FROM
+		}
+	}
+	HV_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			is_at_war_with = FROM
+		}
+	}
+	HV_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			is_at_war_with = FROM
+		}
+	}
+	HV_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_hedonistic_visionaries
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}	
+
+
+
+	# map_generous_philanthropists
+	GP_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GP_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GP_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GP_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	GP_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GP_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GP_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GP_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	GP_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GP_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GP_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GP_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			is_at_war_with = FROM
+		}
+	}
+	GP_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			is_at_war_with = FROM
+		}
+	}
+	GP_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			is_at_war_with = FROM
+		}
+	}
+	GP_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_generous_philanthropists
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+
+
+	# map_adventure_seekers
+	AS_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	AS_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	AS_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	AS_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	AS_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	AS_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	AS_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	AS_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	AS_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	AS_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	AS_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	AS_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			is_at_war_with = FROM
+		}
+	}
+	AS_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			is_at_war_with = FROM
+		}
+	}
+	AS_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			is_at_war_with = FROM
+		}
+	}
+	AS_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_adventure_seekers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	
+
+
+	# map_splendid_isolationists
+	SI_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SI_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SI_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SI_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	SI_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SI_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SI_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SI_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	SI_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SI_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SI_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SI_WAR_GREETING_01 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			is_at_war_with = FROM
+		}
+	}
+	SI_WAR_GREETING_02 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			is_at_war_with = FROM
+		}
+	}
+	SI_WAR_GREETING_03 = {
+		weight = {
+			weight = 10 #pip pip cheerio
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			is_at_war_with = FROM
+		}
+	}
+	SI_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_splendid_isolationists
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}	
+
+
+
+	# map_psychotic_hordes
+	PH_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PH_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PH_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	PH_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	PH_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PH_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PH_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	PH_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	PH_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PH_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PH_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	PH_WAR_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			is_at_war_with = FROM
+		}
+	}
+	PH_WAR_GREETING_02 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			is_at_war_with = FROM
+		}
+	}
+	PH_WAR_GREETING_03 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			is_at_war_with = FROM
+		}
+	}
+	PH_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 99 # I AM ATTILA
+		}
+		trigger = {
+			has_ai_personality = map_psychotic_hordes
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	
+
+
+	# map_totalitarian_patriots
+	TP_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	TP_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	TP_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	TP_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	TP_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	TP_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	TP_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	TP_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	TP_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	TP_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	TP_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	TP_WAR_GREETING_01 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			is_at_war_with = FROM
+		}
+	}
+	TP_WAR_GREETING_02 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			is_at_war_with = FROM
+		}
+	}
+	TP_WAR_GREETING_03 = {
+		weight = {
+			weight = 10 #2+2=5
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			is_at_war_with = FROM
+		}
+	}
+	TP_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 30
+		}
+		trigger = {
+			has_ai_personality = map_totalitarian_patriots
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}	
+
+
+
+	# map_insecure_imitators
+	IM_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IM_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IM_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IM_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	IM_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	IM_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	IM_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	IM_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	IM_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IM_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IM_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IM_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			is_at_war_with = FROM
+		}
+	}
+	IM_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			is_at_war_with = FROM
+		}
+	}
+	IM_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			is_at_war_with = FROM
+		}
+	}
+	IM_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_insecure_imitators
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_efficient_bureaucrats
+	EB_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EB_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EB_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EB_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EB_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EB_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EB_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EB_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	EB_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EB_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EB_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EB_WAR_GREETING_01 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			is_at_war_with = FROM
+		}
+	}
+	EB_WAR_GREETING_02 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			is_at_war_with = FROM
+		}
+	}
+	EB_WAR_GREETING_03 = {
+		weight = {
+			weight = 15 # these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			is_at_war_with = FROM
+		}
+	}
+	EB_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 30 # file these forms yo
+		}
+		trigger = {
+			has_ai_personality = map_efficient_bureaucrats
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+
+	# map_guerilla_fighters
+	GF_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GF_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GF_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	GF_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	GF_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GF_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GF_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	GF_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	GF_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GF_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GF_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	GF_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			is_at_war_with = FROM
+		}
+	}
+	GF_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			is_at_war_with = FROM
+		}
+	}
+	GF_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			is_at_war_with = FROM
+		}
+	}
+	GF_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_guerilla_fighters
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_civilized_nomads
+	CN_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CN_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CN_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	CN_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	CN_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CN_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CN_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	CN_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	CN_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CN_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CN_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	CN_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			is_at_war_with = FROM
+		}
+	}
+	CN_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			is_at_war_with = FROM
+		}
+	}
+	CN_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			is_at_war_with = FROM
+		}
+	}
+	CN_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_civilized_nomads
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	### AI Personality Greetings
+
+	# map_slave_traders
+	ST_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	ST_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	ST_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	ST_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	ST_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	ST_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	ST_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	ST_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	ST_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	ST_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	ST_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	ST_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			is_at_war_with = FROM
+		}
+	}
+	ST_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			is_at_war_with = FROM
+		}
+	}
+	ST_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			is_at_war_with = FROM
+		}
+	}
+	ST_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_slave_traders
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_sublime_porte
+	SP_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SP_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SP_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SP_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	SP_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SP_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SP_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SP_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	SP_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SP_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SP_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SP_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			is_at_war_with = FROM
+		}
+	}
+	SP_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			is_at_war_with = FROM
+		}
+	}
+	SP_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			is_at_war_with = FROM
+		}
+	}
+	SP_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_sublime_porte
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_enterprising_corsairs
+	EC_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EC_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EC_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EC_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EC_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EC_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EC_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	EC_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	EC_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EC_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EC_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EC_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			is_at_war_with = FROM
+		}
+	}
+	EC_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			is_at_war_with = FROM
+		}
+	}
+	EC_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			is_at_war_with = FROM
+		}
+	}
+	EC_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_enterprising_corsairs
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_slave_soldiers
+	SLS_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SLS_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SLS_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	SLS_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	SLS_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SLS_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SLS_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	SLS_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	SLS_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SLS_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SLS_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	SLS_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			is_at_war_with = FROM
+		}
+	}
+	SLS_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			is_at_war_with = FROM
+		}
+	}
+	SLS_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			is_at_war_with = FROM
+		}
+	}
+	SLS_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_slave_soldiers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	# map_warrior_mystics
+	WM_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	WM_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	WM_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	WM_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	WM_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	WM_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	WM_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			is_wary_to = FROM
+		}
+	}
+	WM_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	WM_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	WM_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	WM_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	WM_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			is_at_war_with = FROM
+		}
+	}
+	WM_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			is_at_war_with = FROM
+		}
+	}
+	WM_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			is_at_war_with = FROM
+		}
+	}
+	WM_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_warrior_mystics
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}	
+	
+}
+
+action_declare_war = {
+	propose = {
+		# map_patronizing_colonizers
+		PC_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_patronizing_colonizers
+				}
+			}
+		}
+		# map_savage_raiders
+		SR_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_savage_raiders
+				}
+			}
+		}
+		# map_defenders_of_the_faith
+		DOTF_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_defenders_of_the_faith
+				}
+			}
+		}
+		# map_carefree_hippies
+		CH_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_carefree_hippies
+				}
+			}
+		}
+		# map_studious_builders
+		SB_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_studious_builders
+				}
+			}
+		}
+		# map_hedonistic_visionaries
+		HV_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_hedonistic_visionaries
+				}
+			}
+		}
+		# map_generous_philanthropists
+		GP_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_generous_philanthropists
+				}
+			}
+		}
+		# map_adventure_seekers
+		AS_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_adventure_seekers
+				}
+			}
+		}
+		# map_splendid_isolationists
+		SI_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_splendid_isolationists
+				}
+			}
+		}
+		# map_psychotic_hordes
+		PH_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 50
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_psychotic_hordes
+				}
+			}
+		}
+		# map_totalitarian_patriots
+		TP_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_totalitarian_patriots
+				}
+			}
+		}
+		# map_insecure_imitators
+		IM_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_insecure_imitators
+				}
+			}
+		}
+		# map_efficient_bureaucrats
+		EB_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_efficient_bureaucrats
+				}
+			}
+		}
+		# map_guerilla_fighters
+		GF_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_guerilla_fighters
+				}
+			}
+		}
+		# map_civilized_nomads
+		CN_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_civilized_nomads
+				}
+			}
+		}
+		# map_slave_traders
+		ST_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_slave_traders
+				}
+			}
+		}
+		# map_sublime_porte
+		SP_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_sublime_porte
+				}
+			}
+		}
+		# map_enterprising_corsairs
+		EC_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_enterprising_corsairs
+				}
+			}
+		}
+		# map_slave_soldiers
+		SLS_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_slave_soldiers
+				}
+			}
+		}
+		# map_warrior_mystics
+		WM_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_warrior_mystics
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,446 @@
+﻿l_russian:
+ ####################################
+ # Diplomacy text
+ ####################################
+ 
+ # Patronizing Colonizers
+ PC_HOSTILE_GREETING_01:0 "Мы верим что необходимо просвещать малые культуры, такие как ваша, но эти [From.GetSpeciesAdj] такие дикари и примитивные, что сложно сказать возможно ли это с вашим видом."
+ PC_HOSTILE_GREETING_02:0 "Иногда мы читаем о запущенных условиях жизни вашего народа и удивляемся, как кто-то может жить в такой среде."
+ PC_HOSTILE_GREETING_03:0 "Неоспоримо, вы - варвары, которые должны быть обучены правильному этикету. Встреча с вами, каждый раз большое разочарование."
+ PC_DOMINEERING_GREETING_01:0 "Посмотрите ка на этих жалких, примитивных [From.GetSpeciesName]. Когда-нибудь мы сможем сделать вас цивилизованными, как трудно бы это ни было."
+ PC_NEUTRAL_GREETING_01:0 "Похоже ваши люди примитивны. Может вам было бы интересно узнать о нашей превосходящей культуре?"
+ PC_NEUTRAL_GREETING_02:0 "Нам сложно понять ваши примитивные обычаи, но мы попробуем во имя дипломатии."
+ PC_NEUTRAL_GREETING_03:0 "У нас самые хорошие намерения. Когда-нибудь мы приобщим вас к правильным путям цивилизации, как нибудь. Для [Root.GetSpeciesAdj] это наш крест."
+ PC_THREATENED_GREETING_01:0 "Что нам ожидать от мерзких маленьких язычников? Вы дикари! Дикари!"
+ PC_FRIENDLY_GREETING_01:0 "Несмотря на примитивную, неразвитую культуру, мы полагаем что [From.GetSpeciesName] можно считать благородными дикарями."
+ PC_FRIENDLY_GREETING_02:0 "Терпите, дорогие друзья. Когда-нибудь вы будете такие-же цивилизованные, как и мы."
+ PC_FRIENDLY_GREETING_03:0 "Некоторые язычники-дикари отказываются принять превосходство нашей культуры и отказываются сами становиться цивилизованными. Мы рады, что вы не одни из них."
+ PC_WAR_GREETING_01:0 "Дикари! Дикари! Грязные крикливые черти, едва имеющие интеллект!"
+ PC_WAR_GREETING_02:0 "Мы старались как могли, чтобы обучить [From.GetSpeciesName] и поднять их на приемлимый уровень культуры. Но видимо нам придеться прибегнуть к силе."
+ PC_WAR_GREETING_03:0 "Дикари! Дикари! Да прозвучит горн войны!"
+ # Vassal greetings
+ PC_VASSAL_GREETING_01:0 "Нам унизительно служить таким примитивным язычникам. Но подождите немного... совсем немного..."
+ # Declaration of War
+ PC_DOW_PROPOSE_01:0 "Это объявление войны! Самое время приобщить вас к цивилизации, примитивые язычники! Готовьтесь узреть мощь нашей превосходящей культуры."
+ 
+ # Savage Raiders
+ SR_HOSTILE_GREETING_01:0 "Представители [From.GetSpeciesName] выглядят... уязвимыми. Надо быть осторожнее или может быть... нам просто вас разграбить..."
+ SR_HOSTILE_GREETING_02:0 "Несмотря на то что мы очень любим грабить наших врагов, безкультурные и жалкие [From.GetSpeciesName] лишены чего-либо ценного."
+ SR_HOSTILE_GREETING_03:0  "[From.GetSpeciesName стали самодовольными и ленивыми. Будет жалко если кто-то на вас нападет, отберет все богатства..."
+ SR_DOMINEERING_GREETING_01:0 "Мы просто с вами забавлялись. Готовьтесь же теперь, жалкие [From.GetSpeciesNameInsult]! Мы будем нападать и грабить!"
+ SR_NEUTRAL_GREETING_01:0 "Ваш народ имеет некоторые богатства, которые мы бы в итоге желали себе..."
+ SR_NEUTRAL_GREETING_02:0 "Кому нужна дипломатия когда мы можем просто вас грабить? Не волнуйтесь, в конечнем счете мы будем на вас нападать, но пока мы решили оставить вас в покое."
+ SR_NEUTRAL_GREETING_03:0 "Мы не любим все эти фальшивые любезности как сейчас, мы предпочитаем грабить наших врагов. Но сейчас, мы послушаем вас, по крайней мере пока."
+ SR_THREATENED_GREETING_01:0 "Представители [From.GetName] высокомерны и декадентны. Скоро мы будем откусывать от вас по кусочку, пока вы не ослабнете."
+ SR_FRIENDLY_GREETING_01:0 "Ваш народ мудрый и сильный. Для нас будет неразумно провоцировать такую сильную нацию нашими налетами. Возможно, у вас есть враг, которого мы можем разграбить?"
+ SR_FRIENDLY_GREETING_02:0 "Мы считаем что [From.GetSpeciesName] это - достойный и благородный противник. Посему мы не будем грабить ваши земли без необходимости."
+ SR_FRIENDLY_GREETING_03:0 "Хотя нападать и грабить эта в наша стихия, мы признаем, что когда мы видим великую нацию как например [From.GetSpeciesName], мы обещаем не причинять вам какого-либо вреда"
+ SR_WAR_GREETING_01:0 "Ха! Нападаем на все! Грабим всех! Бегите, пока мы вас всех не убили!"
+ SR_WAR_GREETING_02:0 "Берегись [From.GetRulerName]! Великая радость для воина [Root.GetSpeciesAdj] - это поражение своих врагов, гнать их прочь, забрать всё что у них есть, видеть как плачут их возлюбленные, а их жен и детей держать в своих руках."
+ SR_WAR_GREETING_03:0 "Мы разграбим вас так дочиста, что ваш народ будет прозябать в нищете и голоде до конца времен!"
+
+ # Vassal greetings
+ SR_VASSAL_GREETING_01:0 "Великий и ужасный хозяин, кого из наших врагов мы атакуем сегодня?"
+
+ # Declaration of War
+ SR_DOW_PROPOSE_01:0 "Это объявление войны! Время нападать и грабить ваши беззащитные земли [From.GetSpeciesNameInsult]!"
+ 
+ # Defenders of the Faith
+ DOTF_HOSTILE_GREETING_01:0 "Язычники! Небеса поразят вас за ваше бохогульство!"
+ DOTF_HOSTILE_GREETING_02:0 "Вы - угроза для истинных верующих по всей галактике. Без сомнения - вы в союзе с дьяволом. Предупреждаю - наши святые воины умеют сражаться против таких как вы"
+ DOTF_HOSTILE_GREETING_03:0 "Как мы вообще можем иметь что-то общее с такими еретиками как [From.GetSpeciesName]? Когда-нибудь у нас будет священная война против вас. Вне сомнений."
+ DOTF_DOMINEERING_GREETING_01:0 "Узри силу нашей веры! Склонись перед нашими священными рыцарями, язычник!"
+ DOTF_NEUTRAL_GREETING_01:0  "Кто ты, трепещущий перед небесами или приспешник дьявола? Наше духовенство разберется."
+ DOTF_NEUTRAL_GREETING_02:0 "Возможно вы развяжем священную войну против вас когда-нибудь. А может и нет. Время покажет..."
+ DOTF_NEUTRAL_GREETING_03:0 "Мы предпочитаем жить в мире, но если вы будете угрожать святости нашей веры, наши святые воины будут безжалостны к вам."
+ DOTF_THREATENED_GREETING_01:0 "Зря ликуете язычники! Наши святые рыцари защищены небесами, ваши воины еретики ничто."
+ DOTF_FRIENDLY_GREETING_01:0 "А! Наши хорошие друзья! Каких язычников вы побили недавно?"
+ DOTF_FRIENDLY_GREETING_02:0 "Возможно, вы сможете очистить вселенную от демонов когда-нибудь."
+ DOTF_FRIENDLY_GREETING_03:0 "Ересь - ужасная вещь. Мы рады что вы не богохульники. Иначе наши святые воины 'позаботились' бы о вас."
+ DOTF_WAR_GREETING_01:0 "НЕБЕСА ЭТОГО ХОТЯТ! СМЕРТЬ ЯЗЫЧНИКАМ!"
+ DOTF_WAR_GREETING_02:0 "Трус. Все вы такие. Наши святые воины защищены верой в эту священную войну! Небеса этого хотят!"
+ DOTF_WAR_GREETING_03:0 "Что ты можешь противопоставить правде, следователь ложной веры? Наши армии восторжествуют в священной войне."
+
+ # Vassal greetings
+ DOTF_VASSAL_GREETING_01:0 "Да почтенный хозяин? Мы развяжем ли мы священную войну против наших врагов сегодня?"
+ 
+ # Declaration of War
+ DOTF_DOW_PROPOSE_01:0 "Это объявление священной войны! На то Его воля!"
+
+ # Carefree Hippies
+ CH_HOSTILE_GREETING_01:0 "Просто... оставьте нас в покое..."
+ CH_HOSTILE_GREETING_02:0 "Народ из [From.GetSpeciesName], что не так то с вашей системой... вами... вы такие грубые... Что-то не так с вашими чакрами."
+
+ CH_HOSTILE_GREETING_03:0 "Иногда мне кажется, что [From.GetRulerTitle] [From.GetRulerName] нужно просто расслабиться... плыть по течению... но такое чувство что [From.GetSpeciesName] просто не может."
+ CH_DOMINEERING_GREETING_01:0 "Почему ты просто не можешь попробовать плыть по течению? Принять космос? Послушай... и расслабься..."
+ CH_NEUTRAL_GREETING_01:0 "Привет приятель. Прежде чем мы о чем либо договоримся, сделай несколько глубоких выдохов. Вдох и выдох. Вдох и выдох. Почувствуй себя единым со вселенной."
+ CH_NEUTRAL_GREETING_02:0 "Несмотря на то, что мы расслабляемся и предпочитаем плыть по течению, мы можем и за себя постоять... это делает нас даже более опасными!"
+ CH_NEUTRAL_GREETING_03:0 "Живи в настоящем! Расслабься и отпусти себя! Тогда может у нас и будет просвященная беседа..."
+ CH_THREATENED_GREETING_01:0 "Вам, [From.GetName], нужно быть осторожнее. Вселенная бесконечна, богата и прекрасна, твоя мощь - ничто, по сравнению с ее чудесами."
+ CH_FRIENDLY_GREETING_01:0 "Какой чудесный день для этого! Народ из [Root.GetName] думает, что [From.GetSpeciesName] крутые и дерзкие!"
+ CH_FRIENDLY_GREETING_02:0 "Сегодня, мы вместе подивимся красоте нашей вселенной... станем одним с ней... будем вселеной... Ах, о чем это я?"
+ CH_FRIENDLY_GREETING_03:0 "Вдох, выдох. Вдох, выдох. Когда я вижу [From.GetSpeciesName], у меня такое приятное чувство внутри."
+ CH_WAR_GREETING_01:0 "Похоже кому-то нужно преподать урок, что такое внутренний покой."
+ CH_WAR_GREETING_02:0 "Да что с вами не так [From.GetSpeciesName]? Вы такие... беспонтовые. Поэтому мы будем сражаться."
+ CH_WAR_GREETING_03:0 "Мы боремся против системы, боремся против вас - мерзкие авторитарные угнетатели! Свободу [From.GetSpeciesName]!"
+ # Vassal greetings
+ CH_VASSAL_GREETING_01:0 "Расслабься. Вдох, выдох. Почувствуй единство со вселенной, о благородный и почтенный."
+
+ # Declaration of War
+ CH_DOW_PROPOSE_01:0 "Это объявление войны! Жестокость конечно не решение проблемы... но не сегодня!"
+
+ # Open-Minded Worshippers
+ OMW_HOSTILE_GREETING_01:0 "Наши ученые постоянно пытаются найти что-то хорошее в верованиях [From.GetSpeciesName], но всегда безуспешно."
+ OMW_HOSTILE_GREETING_02:0 "Хотя нам и нравится атмосфера терпимости и понимания, это трудно с такими как вы."
+ OMW_HOSTILE_GREETING_03:0 "Мы боимся, что [From.GetSpeciesAdj] [From.GetSpeciesSpawnNamePlural] растут в среде, которая не способствует их духовному и личностному развитию."
+ OMW_DOMINEERING_GREETING_01:0 "Ваша культура, без сомнения, неразвитая и простодушная и мы считаем, что нам нужно ограничиваться от вас. Это не ваша вина, что ваши люди такие примитивные."
+ OMW_NEUTRAL_GREETING_01:0 "Рады встрече. Мы стремимся лучше понять убеждения других. При этом, мы можем лучше понять самих себя."
+ OMW_NEUTRAL_GREETING_02:0 "Мы надеемся, что лидеры [From.GetName] хотят поучаствовать в плодотворном диалоге о различиях и сходствах между нашими культурами и  верованиями."
+ OMW_NEUTRAL_GREETING_03:0 "Важно, что мы понимаем друг друга духовно, даже если мы и не верим одно и тоже."
+ OMW_THREATENED_GREETING_01:0 "Мы знаем, что вы смотрите на нас сверху вниз, но пожалуйста, будьте открытыми и понимающими к тем, кто имеет разные точки зрения."
+ OMW_FRIENDLY_GREETING_01:0 "Ах! Наши друзья! Это всегда такое удовольствие, вести дружественные, проницательные дебаты с вами о природе космоса."
+ OMW_FRIENDLY_GREETING_02:0 "Даже если [Root.Get Породы Название] и [From.GetSpecies Name] не всегда согласны между собой относительно разных вещей, наша похожесть и взаимное понимание всегда важнее, чем наши различия и разные мнения."
+ OMW_FRIENDLY_GREETING_03:0 "Религиозные дискуссии с вами - всегда большая честь Хотя мы можем и не соглашаться по некоторым ключевым вопросам, мы считаем, что ученые [From.GetName] просто имеют разные точки зрения, а не ошибочные или неправильные."
+ OMW_WAR_GREETING_01:0 "Иногда, мы должны бороться. Жаль, так как ваша культура и верования имеют свою красоту, но ваши лидеры почти во всем не хотят с нами договариваться."
+ OMW_WAR_GREETING_02: 0 "Наши два народа страдают! Вот почему мы не любим войну. Почему мы не можем обсудить наши различия в атмосфере мира и взаимопонимания? Хотя иногда нужно взять оружие и просто начать войну." 
+ OMW_WAR_GREETING_03:0 "Мы бы предпочли обсудить наши разногласия с помощью приятной, интеллектуальной беседы, но война тоже отлично подойдет."
+
+ # Vassal greetings
+ OMW_VASSAL_GREETING_01:0 "[From.GetName] имеют такой красивый и благородный образ мышления. Даже если мы и не всегда согласны с этим, мы гордимся тем, что мы верные последователи [From.GetSpeciesName]."
+ 
+ # Declaration of War
+ OMW_DOW_PROPOSE_01:0 "Это объявление войны! Мы ненавидим конфликты, это действительно так. Но иногда у нас нет выбора."
+ 
+ # Studious Builders
+ SB_HOSTILE_GREETING_01:0 "Мы рассматриваем возможность возведения большого памятника глупости и дикости [From.GetSpeciesName]."
+ SB_HOSTILE_GREETING_02:0 "Для наших людей трудно жить в мире, когда они знают, что существуют такие безвкусные и простодушные дураки, такие как [From.GetSpeciesName]."
+ SB_HOSTILE_GREETING_03:0 "[From.GetName] - позор галактики и мы намерены построить большой музей, посвященный исключительно для обобщения ваших неудач и недостатков."
+ SB_DOMINEERING_GREETING_01:0 "Может быть, нам просто уничтожить [From.GetName] и использовать ваш прах в качестве строительного материала или приправы к еде. И то и другое подойдет."
+ SB_NEUTRAL_GREETING_01:0 "Мы - [Root.GetName], мало заинтересованы в ваших делах, пока вы не вмешиваетесь в наши. Однако мы более чем заинтересованы вести переговоры, выгодные для всех нас."
+ SB_NEUTRAL_GREETING_02:0 "Мы не ожидали вас. Однако предупреждаю, мы не заинтересованы в участии в каком-либо конфликте, будь то вы враг или союзник."
+ SB_NEUTRAL_GREETING_03:0 "Может быть, когда-нибудь мы отправим наших лучших инженеров и ремесленников к вам, чтобы [From.GetSpeciesAdj] изучали ваши методы строительства и управления инфраструктурой."
+ SB_THREATENED_GREETING_01:0 "Мы просим проявить благоразумие. Мы приложили много усилий строя наше общество и это все будет впустую, если вы что-то сделаете с нами!"
+ SB_FRIENDLY_GREETING_01:0 "Привет! Возможно, когда-нибудь мы должны будем построить славный памятник дружбы между нашими народами, которые используют лучшие инженерные и архитектурные приемы, и стили обоих рас."
+ SB_FRIENDLY_GREETING_02:0 "Это большая честь говорить с вами. Мы предпочитаем сосредоточиться на создании нашего собственного общества, но мы не видим причин, чтобы не объединиться с верными и надежными друзьями как [From.GetSpeciesName]."
+ SB_FRIENDLY_GREETING_03:0 "Для наших инженеров, ученых и ремесленников - это прекрасная возможность вести диалог и обмениваться идеями."
+ SB_WAR_GREETING_01:0 "Ваше общество даже недостойно того, чтобы его разрушать. Но мы вас растопчем, как жалких [From.GetSpeciesNameInsult]!"
+ SB_WAR_GREETING_02:0 "Когда это война закончится, мы возведем большой памятник победы над [From.GetName]!"
+ SB_WAR_GREETING_03:0 "Эта война стоит дорого, но мы должны бороться. После того, как закончим драться, наши лидеры построят высокий и могучий памятник нашей победы над вами, жалкие [From.GetSpeciesNameInsult]."
+ 
+ # Vassal greetings
+  SB_VASSAL_GREETING_01:0 "Мы рады видеть Вас снова. Может быть, вы поспособствуете строительству большого мемориала в честь нашей службы и преданности [From.GetName]."
+ 
+ # Declaration of War
+ SB_DOW_PROPOSE_01: 0 "Это объявление войны! Хотя наши ресурсы, как правило, посвящены построению нашего общества, восхвалении нашей культуру, и развитию инфраструктуры, мы можем легко использовать их, чтобы построить могучую военную машину, которая сокрушит вас!"
+  
+ # Hedonistic Visionaries (aka Bioshock references)
+ HV_HOSTILE_GREETING_01:0 "В конце концов, что отличает [Root.GetSpeciesName] от [From.GetSpeciesNameInsult]? Деньги? Власть? Нет, [Root.GetSpeciesName] выбирает, а [From.GetSpeciesNameInsult] слушается!"
+ HV_HOSTILE_GREETING_02:0 "В чем разница между [Root.GetSpeciesName] и [From.GetSpeciesNameInsult]? [Root.GetSpeciesName] строит. [From.GetSpeciesNameInsult] спрашивает: 'Где моя доля?' [Root.GetSpeciesName] создает. [From.GetSpeciesNameInsult] говорит: 'Что подумают соседи?' [Root.GetSpeciesName] изобретает. [From.GetSpeciesNameInsult] говорит: 'Смотри или вы оскорбите небеса...'"
+ HV_HOSTILE_GREETING_03:0 "Не могли бы оставить [Root.GetName] в покое?"
+ HV_DOMINEERING_GREETING_01:0 "Не могли бы вы просто пресмыкаться перед нами, жалкие рабы?"
+ HV_NEUTRAL_GREETING_01:0 "Все мы делаем выбор, но в итоге наши решения определяют нас. Мне интересно знать, какие решения [From.GetName] сделает в будущем."
+ HV_NEUTRAL_GREETING_02:0 "Я представитель [Root.GetName] и ​​я здесь, чтобы задать [From.GetName] вопрос. Имеют ли [Root.GetSpeciesName] право на то, что зарабатывают в поте лица своего?"
+ HV_NEUTRAL_GREETING_03: 0 "Что такое величайшая ложь? Что есть самая мерзкая вещь, которая когда-либо происходила на [From.GetName]? Рабство? Геноцид? Диктатура? Нет, вот инструмент, помощью которого все грязное [From.GetSpeciesAdj] создается: альтруизм."
+ HV_THREATENED_GREETING_01:0 "Хотя у вас и есть много влияния, [From.GetSpeciesName], вы все еще рабы. [Root.GetSpeciesName] свободны, потому что могут выбирать. [From.GetSpeciesName] должны подчиняться..."
+ HV_FRIENDLY_GREETING_01:0 "Ваша сила воли привела вас сюда и с этой силой мы будем строить лучшее и светлое будущее для всей галактике."
+ HV_FRIENDLY_GREETING_02:0 "[Root.GetSpeciesName] выбирает. [From.GetSpeciesName] также выбирает. Наши народы свободны. Это в другом месте в галактике паразиты, которые подчиняются, простые рабы..."
+ HV_FRIENDLY_GREETING_03:0 "Мы считаем, что [Root.GetSpeciesName] великие, прямо как мы. Пусть меньшие не ограничивают великих. Пусть мы будем свободны в выборе! Мы, конечно же, выбираем дружбу с вами."
+ HV_WAR_GREETING_01:0 "[Root.GetSpeciesName] выбирает, а [From.GetSpeciesNameInsult] повинуется. И мы выбираем, чтобы вести эту войну до победного конца!"
+ HV_WAR_GREETING_02:0 "Вы можете убить нас всех, но вы никогда не получите [Root.GetSpeciesName]. Хотя наша защита может и пасть, вам никогда не победить [Root.GetName]. Наша сила не в стали и огне, но в интеллекте и воли. Это то, что вам, [From.GetSpeciesNameInsult] никогда не понять."
+ HV_WAR_GREETING_03:0 "[Root.GetName] пришли в эту галакту, чтобы свершить невозможное. [From.GetName] пришли грабить то, что вы никогда не смогли бы построить сами. Мы будем защищать себя, потому что мы свободны, а вы рабы!"
+ 
+ # Vassal greetings
+ HV_VASSAL_GREETING_01:0 "Даже в книге лжи иногда есть истина. Всему свое время и [Root.GetName] знает, что сейчас не время поднимать оружие против [From.GetName]. Но знайте, мы свободны в наших сердцах и мы не рабы. Мы не слушаемся, мы просто решили следовать за вами."
+  
+ # Declaration of War
+ HV_DOW_PROPOSE_01:0 "Это объявление войны! [Root.GetSpeciesName] выбирает, и мы выбираем ВОЙНУ!".
+   
+ # Generous Philanthropists
+ GP_HOSTILE_GREETING_01:0 "Вы - это оскорбление для всех миролюбивых народов по всей галактике. Вы не заслуживаете нашей помощи, [From.GetSpeciesNameInsult]."
+ GP_HOSTILE_GREETING_02:0 "[Root.GetName] посвящает себя помощи другим, чтобы те процветали. Но мы не думаем, вы достойны этого.  Реформируйте свою политику и свою культуру, и тогда мы могли бы пересмотреть свою позицию."
+ GP_HOSTILE_GREETING_03:0 "Пришли к нам просить помощи? Мы не помогаем жестоким, варварским народам как [From.GetSpeciesName], которые плохо обращаются со своими собственными гражданами?"
+ GP_DOMINEERING_GREETING_01:0 "Мы рассмотрели идею помощи обедневшему и жалкому виду. Это будет пустой тратой ресурсов, которые можно потратить на помощь другим неразвитым народам, которые на самом деле нуждаются в ней."
+ GP_NEUTRAL_GREETING_01:0 "Добро пожаловать! Мы рады поделиться нашим изобилием с вами, до тех пор, как вы делаете то же самое."
+ GP_NEUTRAL_GREETING_02:0 "Мы здесь только чтобы помочь остальной галактике. Если у вас схожие цели, то лучше вам не вмешиваться."
+ GP_NEUTRAL_GREETING_03:0 "Мы рады миру с вашей великой нацией. Я молюсь, чтобы между нашими двумя народами, небыло никакого недоразумения в будущем."
+ GP_THREATENED_GREETING_01:0 "Ваша заносчивость не знает границ, [From.GetSpeciesNameInsult]. Помните: то, что вы сильны, не означает вашу правоту. Мы все являемся частью галактического сообщества и вам лучше понять это, прежде чем станет слишком поздно."
+ GP_FRIENDLY_GREETING_01:0 "А! Наши хорошие друзья! Давайте обсудим, как мы можем сделать галактику лучше. Наверняка есть много недоразвитых видов, которые нуждаются в нашей помощи."
+ GP_FRIENDLY_GREETING_02:0 "Мы упорно трудились, чтобы сделать эту галактику лучшим место для жизни. Для нас важно защищатьосновные достоинства каждого вида и их неотъемлемые права."
+ GP_FRIENDLY_GREETING_03:0 "Хорошо, вы пришли как раз вовремя. Это хорошая возможность поговорить о том, как мы можем продолжать развитие галактики на благо всех!"
+ GP_WAR_GREETING_01:0 "Вы приняли нашу любовь к миру за слабость."
+ GP_WAR_GREETING_02:0 "Ваша бессмысленная агрессия не оставляет нам никакого выбора. Вы будете жалеть об этом!"
+ GP_WAR_GREETING_03:0 "Гнетущий злодей! Дни твоей тирании скоро закончаться и галактика будет веселиться и праздновать твою кончину."
+ 
+ # Vassal greetings
+ 
+ GP_VASSAL_GREETING_01:0 "Мы считаем своим моральным долгом, помогать другим народам в полноценном развитии их экономического, политического и социального потенциала. Вы думаете также? Мы считаем, что вам лучше тратить свои ресурсы именно на это."
+ 
+  # Demolition Man
+ 
+ 
+ 
+ 
+ 
+ 
+ # Declaration of War
+ GP_DOW_PROPOSE_01:0 "This is a declaration of war! The [From.GetName] has been known for its gross violations of intergalactic law. You shall be punished for your transgressions. We do not hate the citizens of the [From.GetName], for we sympathize with their suffering under the brutal regime of [From.GetRulerTitle] [From.GetRulerName]."
+ 
+ # Adventure Seekers (aka sort of millennials)
+ AS_HOSTILE_GREETING_01:0 "The galaxy is full of wonders waiting to be seen, with so many interesting worlds... except for [From.GetHomeWorldName], which is apparently a hive of scum and villainy."
+ AS_HOSTILE_GREETING_02:0 "The [From.GetSpeciesName] are a useless pile of [From.GetSpeciesNameInsult] manure. It's time you showed us some respect, you know? It's hard to believe anyone would want to live in a [From.GetSpeciesNameInsult]-infested garbage landfill like [From.GetHomeWorldName]."
+ AS_HOSTILE_GREETING_03:0 "Hurry up. We have more interesting worlds to explore, more interesting cuisines to sample, more interesting cultures to discover than yours."
+ AS_DOMINEERING_GREETING_01:0 "Most citizens of the [Root.GetName] believe that the [From.GetName] is full of ignorance and oppression. Our government encourages tourists to visit [From.GetHomeWorldName] so they can realize how good they have it and to not take their privilege for granted."
+ AS_NEUTRAL_GREETING_01:0 "We [Root.GetSpeciesName] are always willing to go on new adventures. Perhaps we can start be asking where we can get some authentic [From.GetSpeciesAdj] food? Culinary adventures are always a good way to begin a new adventure."
+ AS_NEUTRAL_GREETING_02:0 "So little time, so much to explore. There are a growing number of [Root.GetSpeciesAdj] tourists who would be interested in seeing the wonders of [From.GetHomeWorldName]"
+ AS_NEUTRAL_GREETING_03:0 "We are pioneers first and foremost, who seek to find the freshest, most authentic experiences possible. We hope that the ancient culture of the [From.GetName] can satisfy our wnaderlust."
+ AS_THREATENED_GREETING_01:0 "Check your privilege, [From.GetSpeciesNameInsult]."
+ AS_FRIENDLY_GREETING_01:0 "Our citizens started liking the culture and ways of the [From.GetName] before it was mainstream. We are the only ones who have an authentic respect for your beautiful, exotic culture."
+ AS_FRIENDLY_GREETING_02:0 "Everywhere I go, I hear [Root.GetSpeciesAdj] citizens talking about how amazing [From.GetSpeciesAdj] culture must be. It seems so exotic, and yet so genuine, to them."
+ AS_FRIENDLY_GREETING_03:0 "[Root.GetSpeciesAdj] foodies really love the cuisine from the [From.GetName]. It's like getting to know an entire culture just from eating a few dishes!"
+ AS_WAR_GREETING_01:0 "We usually prefer to explore the wonders of different cultures, but your culture is so depraved and full of oppression it's better we destroy it with fire."
+ AS_WAR_GREETING_02:0 "Check your damn privilege, [From.GetSpeciesNameInsult]. We fight the [From.GetName] and its oppressive ways!"
+ AS_WAR_GREETING_03:0 "We're trying to engage in 'dialogue' when we should be killing each other in the battlefield. This is what they call irony."
+ # Vassal greetings
+ AS_VASSAL_GREETING_01:0 "We are privileged to have wise mentors such as the [From.GetName]. It is you who will lead us to explore, to adventure, to discover new authentic experiences."
+ # Declaration of War
+ AS_DOW_PROPOSE_01:0 "This is a declaration of war! It will be a fun, exciting adventure for both our peoples. I can't wait."
+ 
+ # Splendid Isolationists
+ SI_HOSTILE_GREETING_01:0 "The [Root.GetSpeciesAdj] gentleman and gentlewoman finds your petty, vulgar culture rather horrendous and nauseating."
+ SI_HOSTILE_GREETING_02:0 "Oh ho! I say! Look at those silly [From.GetSpeciesAdj] ruffians trying to speak to us! I wonder if they even have sentience."
+ SI_HOSTILE_GREETING_03:0 "The [From.GetName] are a jolly good example of what it means to be a despicable villain."
+ SI_DOMINEERING_GREETING_01:0 "Why are we even mingling with low-lives from the [From.GetName]?"
+ SI_NEUTRAL_GREETING_01:0 "Hello, what's this? What do you want with us? We don't see how we could offer you anything and vice versa."
+ SI_NEUTRAL_GREETING_02:0 "Pray tell what you want from us. We are not eager to engage with xenos."
+ SI_NEUTRAL_GREETING_03:0 "Right then... quickly explain your intentions. We will probably not agree to your inane requests, but who knows."
+ SI_THREATENED_GREETING_01:0 "Admittedly the threat that the [From.GetName] poses to our innocent civilians is high. We have instructed them to keep calm and carry on, and we will continue to watch you warily. We do not want any trouble."
+ SI_FRIENDLY_GREETING_01:0 "We always have a smashing good time when [From.GetSpeciesAdj] ambassadors come to visit. Let us drink some herbal concoctions before we engage in negotiations."
+ SI_FRIENDLY_GREETING_02:0 "We are wary of becoming too close with aliens, but we count the [From.GetName] among our good friends."
+ SI_FRIENDLY_GREETING_03:0 "One can always trust the [From.GetName] to do the right thing, once every possible alternative has been exhausted. Ah, we only jest, good friend. You always do the right thing, so far as we are concerned."
+ SI_WAR_GREETING_01:0 "We will fight in the stars, we shall fight on the planets, we shall fight on the asteroids, we shall fight on our spaceships, we shall never surrender."
+ SI_WAR_GREETING_02:0 "Even if we lose, we will brace ourselves to our duties, and so bear ourselves, that if the [Root.GetName] lasts for a thousand years, they will still say, 'This was their finest hour.' We will prevail against your tyranny in this war."
+ SI_WAR_GREETING_03:0 "I say, nice brawl we are having, aren't we, old chap? I do enjoy these little exchange of pleasantries in between battle, even though we must slay you in the end."
+ # Vassal greetings
+ SI_VASSAL_GREETING_01:0 "The [From.GetSpeciesAdj] shall never be a slave... so we once told ourselves. Now we must lie back and think of [From.GetHomeWorldName] when we serve you."
+ # Declaration of War
+ SI_DOW_PROPOSE_01:0 "Oh jolly good, I hope you don't mind the hostility of our language, but this is a declaration of war! Yes, a good old-fashioned brawl. Prepare now, [From.GetSpeciesNameInsult]."
+ 
+ # Psychotic Hordes
+ PH_HOSTILE_GREETING_01:0 "YOUR HEAD WOULD LOOK GOOD ON A POLE."
+ PH_HOSTILE_GREETING_02:0 "FEAR US, FOOL! WE COME WITH A MILLION SPACESHIPS! WE BRING THE END OF DAYS! WE! ARE! THE! SCOURGE! OF! HEAVEN!"
+ PH_HOSTILE_GREETING_03:0 "WE WILL DRINK YOUR BLOOD ONE DAY! "
+ PH_DOMINEERING_GREETING_01:0 "I'm tempted to eat you alive but [From.GetSpeciesAdj] meat probably tastes disgusting, so worthless and debased are the lowly [From.GetSpeciesName]."
+ PH_NEUTRAL_GREETING_01:0 "WE ARE THE DESTROYERS OF STARS."
+ PH_NEUTRAL_GREETING_02:0 "WE ARE THE BRINGERS OF DEATH."
+ PH_NEUTRAL_GREETING_03:0 "You say we are savage. That we are bloodthirsty. But we fear no judgement. Open your books and write in blood: 'They are the [Root.GetSpeciesName]! They are the scourge of the divine!'"
+ PH_THREATENED_GREETING_01:0 "What are you doing here? Do you want to be killed? We could do that. But you are strong... we must find a way even though we are weak.... The [Root.GetNameSpecies] always finds a way..."
+ PH_FRIENDLY_GREETING_01:0 "You should be glad we are thinking of destroying the [From.GetName] last, after we have annihilated everything else in the galaxy."
+ PH_FRIENDLY_GREETING_02:0 "We hope you will be the last to die before our mighty weapons, this is how much we like you."
+ PH_FRIENDLY_GREETING_03:0 "We will kill all [From.GetSpeciesName] eventually, but we assure you we will do so in a gentle and kind manner that befits your noble race."
+ PH_WAR_GREETING_01:0 "YOUR PLANETS WILL BURN INTO OBLIVION!"
+ PH_WAR_GREETING_02:0 "PEACE?! WHILE YOUR SKULLS ARE YET UNSTACKED?! AND YOUR CHILDREN YET TO KILL THEMSELVES IN DESPAIR?! HA! HA! HA!"
+ PH_WAR_GREETING_03:0 "WHY WON'T YOU DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE! DIE!"
+ # Vassal greetings
+ PH_VASSAL_GREETING_01:0 "Which enemies shall we destroy today, master? We thirst for blood, for death, for destruction... if you do not point to us an enemy, we might just have to turn on you."
+ # Declaration of War
+ PH_DOW_PROPOSE_01:0 "This is a declaration of war! OUR WARRIORS TIRE OF PEACE! DRINKING YOUR BLOOD WILL QUENCH THEIR BLOODLUST! THERE WILL BE DESTRUCTION! AND FIRE! DEATH IN BATTLE? THERE IS NO GREATER ENDING!"
+ 
+ # Totalitarian Patriots
+ TP_HOSTILE_GREETING_01:0 "The Ministry of Peace is monitoring this channel. Speak, xeno scum."
+ TP_HOSTILE_GREETING_02:0 "We are watching you."
+ TP_HOSTILE_GREETING_03:0 "We have taught our people to feel nothing but hatred towards the [From.GetName]. Every day, millions of loyal [Root.GetSpeciesAdj] citizens denounce the [From.GetSpeciesName]."
+ TP_DOMINEERING_GREETING_01:0 "We are watching you, scum, though we wonder why we should even bother, given how insignificant you are."
+ TP_NEUTRAL_GREETING_01:0 "Foolish leaders like [From.GetRulerName] may come and go, but the [From.GetName] and the [From.GetSpeciesAdj] people remain."
+ TP_NEUTRAL_GREETING_02:0 "Do not attempt to send any of your agents into our territory. We are skilled at detecting traitors to the state."
+ TP_NEUTRAL_GREETING_03:0 "Not by speeches and votes of the majority will the great questions of our time be decided, but by iron and blood. You do best to remember that."
+ TP_THREATENED_GREETING_01:0 "Traitors to the state seem to abound in the [Root.GetName]. Your agents are everywhere! We know it! Don't lie! You are trying to destroy us from the inside! You will not! Just you wait, you cannot convince all to betray the homeland!"
+ TP_FRIENDLY_GREETING_01:0 "All species may be equal, but some are more equal than others. Certainly, the [Root.GetSpeciesAdj] and [From.GetSpeciesAdj] species are more equal than all others, don't you agree?"
+ TP_FRIENDLY_GREETING_02:0 "For now, we shall have peace for our time. The [From.GetName] do not seem to be a threat to the [Root.GetName], and so we shall return the favor. For now."
+ TP_FRIENDLY_GREETING_03:0 "Be careful out there. There might be a lot of traitors within your ranks, just as there are many within ours. Make sure your government is not compromised! We are just giving you a friendly reminder."
+ TP_WAR_GREETING_01:0 "War is peace! We will have eternal peace with you!"
+ TP_WAR_GREETING_02:0 "Do you want total war? If necessary, do you want a war more total and radical than anything that we can even imagine today? We certainly don't mind."
+ TP_WAR_GREETING_03:0 "One death is a tragedy, and a million deaths is a statistic. Even if millions have to die, we will defeat you in this great patriotic war!"
+ # Vassal greetings
+ TP_VASSAL_GREETING_01:0 "What do you want? We do not serve you out of the goodness of our hearts. Someday, our patriots will reclaim our freedom from you."
+ # Declaration of War
+ TP_DOW_PROPOSE_01:0 "This is a declaration of war! The [Root.GetSpeciesAdj] cause is just. The [From.GetSpeciesAdj] enemy will be defeated. Victory will be ours. Let the next great patriotic war commence!"
+ 
+ # Insecure Imitators
+ IM_HOSTILE_GREETING_01:0 "Revere [Root.GetRulerTitle] [Root.GetRulerName], expel the barbarian [From.GetSpeciesNameInsult]! That is a popular saying in the [Root.GetName]."
+ IM_HOSTILE_GREETING_02:0 "Do you [From.GetSpeciesAdj] imperialists always like to annoy others like this? Leave us alone! You have already leeched off of other species and planets like parasites."
+ IM_HOSTILE_GREETING_03:0 "We need to learn about other, powerful states so that we can improve our situation. However, we find there is little to learn from the uncultured [From.GetSpeciesName]. Can the [From.GetName] even consider itself a proper civilization?"
+ IM_DOMINEERING_GREETING_01:0 "Hah! Weakling barbarian! Decadent imperialist! Grovel before us! See who is the master now, little scurrying [From.GetSpeciesNameInsult]!"
+ IM_NEUTRAL_GREETING_01:0 "The [Root.GetName] does not want to involve itself in any trouble with the great [From.GetName]. We are also eager to learn from your scientists and intellectuals, so that we can improve ourselves."
+ IM_NEUTRAL_GREETING_02:0 "The stars of the four directions are all born of one womb. Why, then, is there so much discord in the galaxy? If you are patient and kind with us, we shall try our best to return the favor."
+ IM_NEUTRAL_GREETING_03:0 "Though there is much we need to learn from you, that we may better our own state of affairs, we are not sure whether you come with genuine intentions, or are actually imperialists secretly plotting to conquer and colonize us."
+ IM_THREATENED_GREETING_01:0 "If a [Root.GetSpeciesAdj] soldier goes to the stars, they shall be a corpse in the vastness of space. But if they die for [Root.GetName], they shall regret nothing. We do not fear you."
+ IM_FRIENDLY_GREETING_01:0 "[From.GetSpeciesAdj] technology, [Root.GetSpeciesAdj] soul. Our people believe that is the best philosophy to have. Though we were once uncivilized, our friendship with you has helped us become stronger and more powerful, and for that we thank you."
+ IM_FRIENDLY_GREETING_02:0 "It would be honorable to fight such a great empire such as the [Root.GetName], but we also cherish our close ties with you as well."
+ IM_FRIENDLY_GREETING_03:0 "We are eternally grateful for all that the [From.GetName] has taught us. We will hopefully rise out of our inferior state of savagery and become a true civilization in the galaxy."
+ IM_WAR_GREETING_01:0 "When we send our soldiers off the war, the intention isn't to let them return alive. It's to kill every single last one of you [From.GetSpeciesAdj] bastards!"
+ IM_WAR_GREETING_02:0 "Our war against you is righteous and justified, for the [From.GetName] is an imperialistic regime seeking to oppress the weaker nations of this galaxy."
+ IM_WAR_GREETING_03:0 "In attack and defense we have spaceships like floating metal castles that shall defend all points of the [Root.GetSpeciesAdj] homeland. Our spaceships of pure metal shall destroy the [From.GetName] that has made an enemy of the [Root.GetName]."
+ # Vassal greetings
+ IM_VASSAL_GREETING_01:0 "The [From.GetName] is renowned for its military bravery, industrial might, and scientific knowledge. There is a lot we can learn from you."
+ # Declaration of War
+ IM_DOW_PROPOSE_01:0 "In the name of [Root.GetRulerTitle] [Root.GetRulerName] who rules the great [Root.GetName] that has existed since time immemorial, we do hereby make proclamation to all our loyal and brave subjects as follows: This is a declaration of war on the the [From.GetName]!"
+ 
+ # Efficient Bureaucrats
+ EB_HOSTILE_GREETING_01:0 "Thank you for contacting the Ministry of Foreign Affairs. Our representatives are currently all busy negotiating with more civilized xenos unlike the barbarian [From.GetSpeciesName]. Currently, it will take... two hundred years for the next representative to be available. Thank you for waiting. If you wish to hear this message again, please press 4."
+ EB_HOSTILE_GREETING_02:0 "We prefer not to engage in negotiations with the pathetic parasites from [From.GetName]. According to the latest guidelines published by Administrative Guidelines Agency in concurrence with the Ministry of Foreign Affairs, the [From.GetName] is not to be trusted, and I can see why."
+ EB_HOSTILE_GREETING_03:0 "Why am I meeting with you? This must be some sort of clerical error. Senior [Root.GetSpeciesAdj] bureaucrats have told me we have no interest in the savages that call themselves the [From.GetName]. Very well, you may speak, but I will have to file a complaint with the Department of Scheduling and Meetings after this."
+ EB_DOMINEERING_GREETING_01:0 "Now serving number... wait, who are you again? Oh, you are one of those undeveloped [From.GetSpeciesNameInsult]s from the [From.GetName]. This was not supposed to be on my schedule, you were supposed to be with a lesser representative who meets with inferior primitives such as yourself. Can someone get my secretary?"
+ EB_NEUTRAL_GREETING_01:0 "Welcome to the [Root.GetName]. Before we begin negotiations, please complete these forms here. Yes, specifically form AT6X-231, 32P9, TT4-01, 6GJKF-F, and CU11-7. There are several other forms you need to do as well, but you must see the Domestic Security Commission to get them. Oh, also, we only accept black ink."
+ EB_NEUTRAL_GREETING_02:0 "Please wait a moment, I must file forms BX-22-A and KSD-34 for the Diplomatic Records Agency before we can begin negotiations. This will only take a few minutes, I assure you. Now... where did I put my pen.... I hope I didn't lose it, otherwise I would have to file a report to the DRA for that."
+ EB_NEUTRAL_GREETING_03:0 "There seems to be a mistake here. Why did you file form AT6X-224? You were supposed to file form AT6X-231. We cannot proceed with negotiations until you finish the correct form. Sorry, this is just administrative protocol. Your twenty other forms have been filed correctly at least. Here, you can borrow my pen."
+ EB_THREATENED_GREETING_01:0 "The Bureau of Analysis and Statistics has determined the [From.GetName] is of greater strength than the [Root.GetName]. I must report to the Xeno Policy Agency soon so we can determine how to best proceed with such a violent, animalistic aggressor."
+ EB_FRIENDLY_GREETING_01:0 "I unfortunately have a schedule conflict, but meeting with our friends from the [From.GetName] is much more important than whatever bureaucratic business I might have had. After all, we will happily cut through any red tape if it allows for us to continue our beneficial relationship with you."
+ EB_FRIENDLY_GREETING_02:0 "Thank you for contacting the [Root.GetName]'s Ministry of Foreign Affairs. Our representatives are currently all busy negotiating with more barbaric xenos unlike the civilized [From.GetSpeciesName]. However, you are very important to us, so we will try to send someone over as soon as we can, even if it means cutting red tape. If you wish to hear this message again, please press 8."
+ EB_FRIENDLY_GREETING_03:0 "We are considering creating a sub-agency within the Ministry of Foreign Affairs called the Bureau of [From.GetSpeciesAdj] Affairs, so that we can continue building an even closer relationship with the [From.GetName]. Unfortunately it will take a lot of time and paperwork...."
+ EB_WAR_GREETING_01:0 "Thank you for contacting the Ministry of Foreign Affairs. We are currently at war with you and not available for negotiation. If you wish to hear this message again, please press 4."
+ EB_WAR_GREETING_02:0 "The [Root.GetSpeciesAdj] Office of Logistics is currently filing out paperwork to develop newer and better weapons that can be used against you, groveling [From.GetSpeciesNameInsult]. Hopefully, the Ministry of Defense will approve our paperwork!"
+ EB_WAR_GREETING_03:0 "Why are you here? Security protocols XTV-22 and G8-4DTJ should have made it so you could not come here. Begone! We are at war, and you are wasting time I could spend filing out important bureaucratic documents!"
+ # Vassal greetings
+ EB_VASSAL_GREETING_01:0 "Ah! The boss is here! Rest assured that as always, the [Root.GetSpeciesAdj] bureaucracy is expanding to meet the needs of the expanding [From.GetSpeciesAdj] bureaucracy."
+ # Declaration of War
+ EB_DOW_PROPOSE_01:0 "This is a declaration of war! Or... wait. Give me a moment. I must file forms ARM-44, PX2-T3, and JLL9 before a formal declaration of war can be made. Sorry for the inconvenience, we just have to follow protocol as set by the Ministry of Defense."
+ 
+ # Guerilla Fighters
+ GF_HOSTILE_GREETING_01:0 "What tragedies take place within each circling space of years! And it is a tragedy that despotic hegemons such as the [From.GetName] exist in the first place."
+ GF_HOSTILE_GREETING_02:0 "Do not underestimate us, [From.GetSpeciesNameInsult]. There are many that have underestimated the [Root.GetName] and suffered because of it."
+ GF_HOSTILE_GREETING_03:0 "The will of the [Root.GetSpeciesAdj] citizens are clear: the [From.GetName] are a bunch of greedy, backstabbing bastards. We will tolerate no transgressions from your kind."
+ GF_DOMINEERING_GREETING_01:0 "The [Root.GetName] shall stand eternal, for all time. It is our fate, our destiny. You, the [From.GetName] on the other hand, are like scurrying pathetic little [From.GetSpeciesNameInsult]s, who will vanish one day into the history books."
+ GF_NEUTRAL_GREETING_01:0 "Although in our history we have been sometimes strong, and sometimes weak, we have at no time lacked heroes. We are not to be trifled with, dear [From.GetSpeciesName]."
+ GF_NEUTRAL_GREETING_02:0 "It is our eternal right to fight for our soverenignity and independence. If you remember that, our relations will be friendly and cordial."
+ GF_NEUTRAL_GREETING_03:0 "Remember, [From.GetSpeciesName], we can easily be friends just as we can easily be enemies. We are fine with having another good neighbor around, but we are not reluctant to fight and defend ourselves if necessary. Keep that in mind."
+ GF_THREATENED_GREETING_01:0 "Just as a warning - we will not be pushed around by aggressors such as the [From.GetName]. Sure, you may be stronger than us, but strength is not equivalent to victory and success"
+ GF_FRIENDLY_GREETING_01:0 "We are glad to call the [From.GetName] our good friends. Sometimes, we have fought enemies for so long we forget what it is like to have a true friend that can be trusted."
+ GF_FRIENDLY_GREETING_02:0 "It is always a pleasure to meet with representatives from the [From.GetName]. Together, we can protect our respective homeworlds against any threat the galaxy might throw at us!"
+ GF_FRIENDLY_GREETING_03:0 "Though a [Root.GetSpeciesAdj] soldier's first priority is to protect the [Root.GetName], his second is to protect our friends, the [From.GetName]."
+ GF_WAR_GREETING_01:0 "How dare you [From.GetSpeciesNameInsult]s try to invade our land? Your armies, without pity, will be annihilated."
+ GF_WAR_GREETING_02:0 "Even if you were to have more guns, more soldiers, more victories, that would not matter. We will win in the end."
+ GF_WAR_GREETING_03:0 "The [Root.GetName] has fought [From.GetSpeciesNameInsult]s tougher than you."
+ # Vassal greetings
+ GF_VASSAL_GREETING_01:0 "We would rather die as your lowly servants than live as unfaithful lords."
+ # Declaration of War
+ GF_DOW_PROPOSE_01:0 "This is a declaration of war! Your wanton aggression can be ignored no longer. We are usually not wont to fight, but we must now defend ourselves against the imperialist, colonizing bastards who call themselves the [From.GetName]."
+ 
+ # Civilized Nomads
+ CN_HOSTILE_GREETING_01:0 "Bah. The [From.GetName] is neither a worthy opponent in battle nor a cultured society we could learn from. You are just good as a source for raiding and pillaging, which we might actually considering doing to you in the future."
+ CN_HOSTILE_GREETING_02:0 "Our warriors look across your borders and see a weak and decadent state ripe for the picking. Surely your precious artwork and goods will sell for a very high price on [Root.GetSpeciesAdj] markets, even if your citizens are otherwise worthless."
+ CN_HOSTILE_GREETING_03:0 "We are always open to adopting the ideas of other cultures, but we find that [From.GetSpeciesAdj] society has little to offer, as it is worthless and full of vice and inefficiency."
+ CN_DOMINEERING_GREETING_01:0 "The circle is now complete. When we first met you, we were but the learners. Now WE are the masters."
+ CN_NEUTRAL_GREETING_01:0 "Welcome. Though we are a warlike people at heart, we always are willing to learn about the finer things in life from the [From.GetName]. Do not, however, mistake our willingness to adopt your customs as weakness on our part."
+ CN_NEUTRAL_GREETING_02:0 "The [Root.GetSpeciesName] is full of wanderlust. We search among the galaxy for new homes and new resources. we search the battlefield for glory and honor, and we search our intellects for culture, government, and art."
+ CN_NEUTRAL_GREETING_03:0 "Remember that we are not to be trifled with. As much as we enjoy the finer things in life, we will quickly don our armor and ready our weapons if the situation calls for it."
+ CN_THREATENED_GREETING_01:0 "Oh look at you, so proud and arrogant. We are warriors and explorers as much as we are scholars and artists. What makes a [Root.GetSpeciesName] a [Root.GetSpeciesName] is the bravery!"
+ CN_FRIENDLY_GREETING_01:0 "Tell me more about the customs and practices of the [From.GetSpeciesAdj]. I always like hearing about them."
+ CN_FRIENDLY_GREETING_02:0 "[From.GetSpeciesAdj] armies are the equal of [Root.GetSpeciesAdj] armies. Your learning is equal to ours. The sophistry and depth of your art is also equal to ours. We are almost like brothers and sisters in arms."
+ CN_FRIENDLY_GREETING_03:0 "The [Root.GetName] sends its warm regards to [From.GetRulerTitle] [From.GetRulerName]. We are admittedly an uncouth race from time to time, but we mean well and hope our days of friendship will continue."
+ CN_WAR_GREETING_01:0 "The average [Root.GetSpeciesName] is just as eager to study science or recite poetry as he is to do battle against the [From.GetSpeciesName]!"
+ CN_WAR_GREETING_02:0 "When this war is finished, our writers shall compose beautiful poems celebrating our warriors' glorious victories over the villainous [From.GetName]."
+ CN_WAR_GREETING_03:0 "Though we are warriors at heart, we are also a thinkers and an artists. This war with the [From.GetName] is a chance for us to exercise not only our physical strength and endurance, but also our mental capacities and our creative skills."
+ # Vassal greetings
+ CN_VASSAL_GREETING_01:0 "Some may disagree, but we find it no dishonor to serve a master stronger than us. There is always room for the [Root.GetName] to learn and grow as a species."
+ # Declaration of War
+ CN_DOW_PROPOSE_01:0 "This is a declaration of war! We regret having to fight you, but we must. Once we seize your homeworlds, rest assured that we shall protect your priceless cultural and scientific artefacts."
+ 
+ # Slave Traders
+ ST_HOSTILE_GREETING_01:0 "If it isn't another one of those [From.GetSpeciesNameInsult]s from the [From.GetName]! What are you here to do? Tell us about how 'evil' our slave trade is? Face it, you fool, it is just a fact of life, so might as well make a profit from it."
+ ST_HOSTILE_GREETING_02:0 "Go away! We wouldn't want to sell any of our slaves to you. Even that would be too much for them."
+ ST_HOSTILE_GREETING_03:0 "Have you come here to offer yourselves as our slaves? The offer's tempting, but we wouldn't take it. You're not fit to be slaves, selling you would result in no financial gain whatsoever."
+ ST_DOMINEERING_GREETING_01:0 "We are so very tempted to just seize your territories and enslave your entire populace, but we have yet to calculate the profits from that."
+ ST_NEUTRAL_GREETING_01:0 "Have you come to do business with the [Root.GetName]? We specialize in the slave trade but are also willing to trade in other commodities such as foodstuffs, raw materials, and processed goods."
+ ST_NEUTRAL_GREETING_02:0 "You better not be one of those annoying idealists coming to tell us about how terrible we are for our slave trade. They just don't understand that life in this galaxy doesn't work according to their ideals."
+ ST_NEUTRAL_GREETING_03:0 "We are more than happy to work together with you to make a profit. Buying slaves now might prove to be a worthwhile investment for the [From.GetName] in the future."
+ ST_THREATENED_GREETING_01:0 "What do you want? Just leave us be. We know you could easily destroy our entire economy, but we see that you are restrianing for now. What, are you going to try to 'free' our slaves? Realize that it won't do anything - there are plenty of more worthwhile lands you can conquer, other slaves to free."
+ ST_FRIENDLY_GREETING_01:0 "My friend! It's a delight to see you! I must give you a gift. Would you like a highly-valued pleasure slave, skilled in many forms of entertainment? Or a warrior slave, to defend you forever and ever more? If you want something else I would be happy to give you some other gift such as authentic [Root.GetSpeciesAdj] food or such luxuries..."
+ ST_FRIENDLY_GREETING_02:0 "If there are ever any [From.GetSpeciesAdj] slaves in the [Root.GetName], we try our best to ensure that they are given to kind and wise masters. We always want to make sure our [From.GetSpeciesAdj] friends are treated well, even if they are slaves!"
+ ST_FRIENDLY_GREETING_03:0 "We have been expecting you! Perhaps we can offer you one of our exotic pleasure slaves for your entertainment while you visit?"
+ ST_WAR_GREETING_01:0 "You know we do not enjoy waging war, given the risks it poses, but sometimes we have to do what we have to do. At the least, this war gives us new opportunities to acquire some [From.GetSpeciesAdj] slaves."
+ ST_WAR_GREETING_02:0 "I hope that any [Root.GetSpeciesName] master that happens to own a [From.GetSpeciesAdj] slave treats them horribly! We will continue to fight until every last [From.GetSpeciesName] is enslaved and sold to the highest bidder!"
+ ST_WAR_GREETING_03:0 "Why are you here? Aren't we supposed to be fighting? Or do you wish to surrender and offer yourselves to be our slaves?"
+ # Vassal greetings
+ ST_VASSAL_GREETING_01:0 "Hail, master! I would like to report that the economy of the [Root.GetName] is doing fairly well. Thanks to your protection, our slave trade has prospered."
+ # Declaration of War
+ ST_DOW_PROPOSE_01:0 "This is a declaration of war! We will enslave every last one of your [From.GetSpeciesAdj] [From.GetSpeciesSpawnNamePlural] and sell them on the galactic market!"
+ 
+ # Sublime Porte
+ SP_HOSTILE_GREETING_01:0 "The trinkets the [From.GetName] sell are not even worth one coin. Why do you come here to bother us?"
+ SP_HOSTILE_GREETING_02:0 "Relations between our two states is tense and full of hostility. We do not say this to be tactless, we merely state the truth. We see little will come of negotiations."
+ SP_HOSTILE_GREETING_03:0 "A wise [Root.GetSpeciesName] knows when it is best to be silent. Unfortunately, the [From.GetSpiecesName] is not wise, and seeks instead to trouble us with the incessant blabber of fools."
+ SP_DOMINEERING_GREETING_01:0 "The [From.GetName] is like a prey in a galaxy full of predators. Be careful, now."
+ SP_NEUTRAL_GREETING_01:0 "You are welcome to the [Root.GetName]. We are used to having many visitors from afar. Merchants, pilgrims, travelers, soldiers, scholars. We welcome all, so long as they do not disrupt our peace."
+ SP_NEUTRAL_GREETING_02:0 "The [Root.GetName] is made up of many different cultures who all coexist. There are always tensions, but we do our best to ensure everyone lives in harmony. It is best that you are aware of this."
+ SP_NEUTRAL_GREETING_03:0 "There are always new opportunities to trade, and some [Root.GetSpeciesAdj] merchants have expressed interest in the [From.GetSpeciesAdj] market. Perhaps the [Root.GetName] and the [From.GetName] shall negotiate a treaty acceptable to us both. An exchange of goods, as well as ideas and cultures, would be encouraging."
+ SP_THREATENED_GREETING_01:0 "The [From.GetName] is like a rose with thorns. Dangerous, lethal even, but the [Root.GetSpeciesName] cannot deny it has a certain beauty and allure. We only hope you are more the latter than the former."
+ SP_FRIENDLY_GREETING_01:0 "Many think of wealth and power as the greatest of achievements, but in this galaxy good health is peerless. The [Root.GetName] sends nothing but well wishes to the [From.GetName], that the [From.GetSpeciesAdj] state may forever be strong and healthy until the end of days!"
+ SP_FRIENDLY_GREETING_02:0 "Welcome, welcome! Let us feast and enjoy ourselves first, before we start negotiations. Exotic fruits? Gourmet delicacies? The sweetest of desserts? Anything for the most esteemed and venerable representatives of the [From.GetName]."
+ SP_FRIENDLY_GREETING_03:0 "Ah, you know, friend, [From.GetSpeciesAdj] products sell for high prices in our bazaars. It seems that many in the [Root.GetName] have taken a liking to the goods your people produce."
+ SP_WAR_GREETING_01:0 "Death is so fleeting, but glory is forever. The deeds of [Root.GetSpeciesAdj] warriors as they defeat their [From.GetSpeciesAdj] foes shall be remembered by generations to come!"
+ SP_WAR_GREETING_02:0 "We grant you the courtesy of meeting us during war. We expect that you come here for good reason, ergo. Perhaps you are here to surrender?"
+ SP_WAR_GREETING_03:0 "Our warriors are some of the mightiest in the galaxy. I am sure your [From.GetSpeciesAdj] weaklings are cowaring at the thought of battling our armies and fleets."
+ # Vassal greetings
+ SP_VASSAL_GREETING_01:0 "The [Root.GetName] is not used to serving other nations, but we must do what we must. How can we help you, o mighty and wise [From.GetSpeciesName]?"
+ # Declaration of War
+ SP_DOW_PROPOSE_01:0 "This is a declaration of war! We shall besiege every single one of your planets. Your defenses shall be no match for our mighty bombardments!"
+ 
+ # Enterprising Corsairs
+ EC_HOSTILE_GREETING_01:0 "We now cast covetous eyes on the vulnerable citizens of the [From.GetName], for they would make good slaves.... Careful now, good friend, we might just be tempted to take them and sell them to the highest bidder."
+ EC_HOSTILE_GREETING_02:0 "It is clear that the [From.GetSpeciesName] is only good for two things: either to toil for us as physical laborers, or serve us as pleasure slaves. Sometimes we wonder why we even let you have your independence. Perhaps we shall rectify that problem someday, by conquering and enslaving every last [From.GetSpeciesName]."
+ EC_HOSTILE_GREETING_03:0 "Well? What is it? We're not selling any of our slaves to you."
+ EC_DOMINEERING_GREETING_01:0 "We consider ourselves progressive-minded. Anyone can be a master, anyone can join the ranks of the [Root.GetSpeciesAdj] fleets and become a feared captain. But it seems that the spineless [From.GetSpeciesAdj] [From.GetSpeciesNameInsult] can never be a master, only a slave."
+ EC_NEUTRAL_GREETING_01:0 "We are a nation of slavers and pirates, and take no shame in that. However, we also consider ourselves traders and men of culture and diplomacy. If you treat us with respect, we shall do the same to you."
+ EC_NEUTRAL_GREETING_02:0 "Are you here to purchase some slaves? Come one, come all! Slaves from the furthest corners of the galaxy. Strong, strapling guards to protect you! Exotic, beautiful slaves skilled in the art of lovemaking! Intelligent, literate bondservants to help with your daily administrative needs! We have it all!"
+ EC_NEUTRAL_GREETING_03:0 "Ah, we were expecting you. It is true we have a few [From.GetSpeciesAdj] slaves on sale. If you wish to purchase their freedom, just have your money ready and I will be more than happy to help you."
+ EC_THREATENED_GREETING_01:0 "Your ships threaten our trade routes and ability to launch raids. It is not a good situation for the [Root.GetName], but we've seen worse!"
+ EC_FRIENDLY_GREETING_01:0 "Good friend! Come, join us and eat some delicacies before we get to business - some of the most delicious of delights from the most exotic corners of the galaxy. We're quite good at acquiring these, and I'm more than happy to give you some to take home with you if you so wish!"
+ EC_FRIENDLY_GREETING_02:0 "Rest assured that our leader, [Root.GetRulerTitle] [Root.GetRulerName], has stipulated that any [From.GetSpeciesName] wrongly captured as a slave shall be immediately set free. It is the least we can do to ensure that our good, profitable relations will remain so, for your friendship is important to us."
+ EC_FRIENDLY_GREETING_03:0 "Who are your enemies, dear [From.GetSpeciesAdj] friend? Tell us where they are, and we shall consider raiding their worlds for slaves. If we are successful, we shall sell you those slaves for very low prices!"
+ EC_WAR_GREETING_01:0 "The [From.GetSpeciesName] shall all be enslaved! Hahaha! Why stop now? We will acquire so many slaves from this war, the profits shall be endless!"
+ EC_WAR_GREETING_02:0 "Would you like some exotic sweets, good enemy of ours? They are not poisoned, we guarantee. Just a courtesy. You'll all be our slaves soon, anyways, so it's not that much a loss to us."
+ EC_WAR_GREETING_03:0 "Many of our brave and sly warriors are instructed to seize any [From.GetSpeciesName] they see so that they could be sold on the slave markets. Such are the customs of war for the [Root.GetName]!"
+ # Vassal greetings
+ EC_VASSAL_GREETING_01:0 "O noble and wise masters! What can the [Root.GetName] do for the [From.GetName] today? The strength of our commerce is great under your guidance."
+ # Declaration of War
+ EC_DOW_PROPOSE_01:0 "This is a declaration of war! Every last [From.GetSpeciesName] will either soon serve a [Root.GetSpeciesName] as a slave, or be sold for high prices on the galactic market!"
+ 
+ # Slave Soldiers
+ SLS_HOSTILE_GREETING_01:0 "We value bravery even among our enemies and rivals, but sometimes I'm not sure whether the warriors of the [From.GetName] have any. I'm sure they have a little bit of courage... somehow."
+ SLS_HOSTILE_GREETING_02:0 "Ha, if it isn't the [From.GetSpeciesAdj] [From.GetSpeciesNameInsult]s. Why don't we have a contest between our mightiest warriors to see who is stronger? It will admitedly be an unfair match, given how much stronger the [Root.GetSpeciesName] is, so I'm sure ours will win by a long shot."
+ SLS_HOSTILE_GREETING_03:0 "Be careful, [From.GetSpeciesName]. Your merchants are not welcome in the [From.GetName]. Who knows if someone might want to... steal their valuable goods."
+ SLS_DOMINEERING_GREETING_01:0 "We are the true lords of the galaxy. Born of the [Root.GetSpeciesAdj] slave warrior castes, we were meant to rule. But the [From.GetName]... ha! What weaklings."
+ SLS_NEUTRAL_GREETING_01:0 "Remember that though our most esteemed ruler, [Root.GetRulerTitle] [Root.GetRulerName], was born of the slave castes, all our leaders are, so do not look down on us as a nation of slaves. There is no shame in being a slave among the [Root.GetSpeciesName] so long as you prove yourself a worthy warrior and leader."
+ SLS_NEUTRAL_GREETING_02:0 "We believe that it is better to be a valorous slave than a cowardly master. Would the [From.GetSpeciesName] agree?"
+ SLS_NEUTRAL_GREETING_03:0 "Our rulers hail from the caste of warrior slaves. They have been taught to fight and to lead since birth. It is why [Root.GetSpeciesAdj] warriors are among the greatest in the galaxy."
+ SLS_THREATENED_GREETING_01:0 "Do not scorn us merely because we are ruled by slave lords, [From.GetSpeciesName]! We have bravery and honor - can you say the same?"
+ SLS_FRIENDLY_GREETING_01:0 "It is good to see you friend! Many [Root.GetSpeciesAdj] [Root.GetSpeciesSpawnNamePlural] say they wish to test their arms against [From.GetSpeciesAdj] warriors, for it is said that the soldiers of [From.GetName] are among the best in the galaxy!"
+ SLS_FRIENDLY_GREETING_02:0 "Whenever we look across the vast galaxy, there are few we hold in higher regard than the [From.GetName]. To impress the slave lords of the [Root.GetName] is quite a feat."
+ SLS_FRIENDLY_GREETING_03:0 "Your merchants are always welcome in the [Root.GetName]. We will do our best to ensure they are protected. We are as honorable and just as we are brave and strong."
+ SLS_WAR_GREETING_01:0 "This is a trial of strength! There is no time for talking. Our slave warriors shall best the greatest of your armies."
+ SLS_WAR_GREETING_02:0 "Come now! Have a little bit more courage! There's no need to stop the fighting yet."
+ SLS_WAR_GREETING_03:0 "I would be careful if I were you, [From.GetSpeciesName]. Our warrior slaves have been trained since birth to fight and to kill. Your leaders may have been born free, but what use is that freedom if they can't defend it? That is why we will win in the end."
+ # Vassal greetings
+ SLS_VASSAL_GREETING_01:0 "Our masters from the [From.GetName] arrive! We are your loyal and most faithful servants, mere slaves ready to do your beckoning."
+ # Declaration of War
+ SLS_DOW_PROPOSE_01:0 "This is a declaration of war! The slave lords of the [Root.GetName] have longed to test the strength of our arms against the villainous [From.GetSpeciesName]. Let's see what you are made of!"
+ 
+ # Warrior Mystics
+ WM_HOSTILE_GREETING_01:0 "How incessant is the rambling of the [From.GetSpeciesAdj] [From.GetSpeciesNameInsult]! Silence is like the vastness of the universe. Speech is but the life span of a mere planet."
+ WM_HOSTILE_GREETING_02:0 "We must coexist in harmony, but you try our patience, o [From.GetSpeciesName]. Sometimes, we must make exceptions."
+ WM_HOSTILE_GREETING_03:0 "The world is full of darkness, and much of that comes from the [From.GetName]."
+ WM_DOMINEERING_GREETING_01:0 "Every [From.GetSpeciesName] I have ever met was full of impatience and a lack of wisdom. It is little wonder that the [From.GetName] lacks strength and prestige in the galactic community."
+ WM_NEUTRAL_GREETING_01:0 "There can be no reason without love, no love without reason. Let the [Root.GetName] and the [From.GetName] co-exist, whether in conflict or in peace, we shall live as we must."
+ WM_NEUTRAL_GREETING_02:0 "Come, come, whoever you are. Wanderer, thinker, lover — it doesn't matter. The [Root.GetName] is not a caravan of despair."
+ WM_NEUTRAL_GREETING_03:0 "The [Root.GetSpeciesName] were born to travel through the stars. Why would anyone prefer to crawl through life?"
+ WM_THREATENED_GREETING_01:0 "Do you come to seek the truth of the universe? So do we. We will contemplate, we will fight, we will love, so long as it is a means to gain better understanding. Yes, you possess much worldly strength. But never underestimate the weak."
+ WM_FRIENDLY_GREETING_01:0 "Friend, if you are ever wholly perplexed and in straits, have patience, for patience is the key to joy. We are here to help you, likewise, so whenever you need assistance, never be afraid to call on us."
+ WM_FRIENDLY_GREETING_02:0 "The galaxy is ancient and full of wonders. Why is everyone always so rushed? We are glad that we can take time to enjoy the beauty of the universe with our [From.GetSpeciesAdj] friends."
+ WM_FRIENDLY_GREETING_03:0 "There are many in the universe who seek to undo our bonds, but I think they are fools to think that they can break the close ties of friendship between our two peoples."
+ WM_WAR_GREETING_01:0 "The darkness in the hearts of every [From.GetSpeciesName] is disconcerting. It is something we must fight against."
+ WM_WAR_GREETING_02:0 "Death is but a fleeting experience. This war, too, will end one day, and be a mere memory in the minds of both [Root.GetSpeciesAdj] [Root.GetSpeciesSpawnNamePlural] and [From.GetSpeciesAdj] [From.GetSpeciesSpawnNamePlural]."
+ WM_WAR_GREETING_03:0 "Our warriors are not only mighty and strong, but full of wisdom, patience, and compassion. That is why they are the envy of the galaxy, and that is why our victory against the forces of [From.GetSpeciesAdj] darkness is inevitable."
+ # Vassal greetings
+ WM_VASSAL_GREETING_01:0 "The [Root.GetName] is but a planet, a mere satellite, that revolves around the [From.GetName] which is like the sun to us."
+ # Declaration of War
+ WM_DOW_PROPOSE_01:0 "This is a declaration of war! The time for harmonious co-existence is over, and it is time for contentious co-existence!"
