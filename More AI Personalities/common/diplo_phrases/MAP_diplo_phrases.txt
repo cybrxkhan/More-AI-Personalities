@@ -61,7 +61,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_patronizing_colonizers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PC_NEUTRAL_GREETING_02 = {
@@ -71,7 +71,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_patronizing_colonizers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PC_NEUTRAL_GREETING_03 = {
@@ -81,7 +81,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_patronizing_colonizers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PC_THREATENED_GREETING_01 = {
@@ -237,7 +237,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_savage_raiders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SR_NEUTRAL_GREETING_02 = {
@@ -247,7 +247,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_savage_raiders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SR_NEUTRAL_GREETING_03 = {
@@ -257,7 +257,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_savage_raiders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SR_THREATENED_GREETING_01 = {
@@ -412,7 +412,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_defenders_of_the_faith
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	DOTF_NEUTRAL_GREETING_02 = {
@@ -422,7 +422,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_defenders_of_the_faith
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	DOTF_NEUTRAL_GREETING_03 = {
@@ -432,7 +432,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_defenders_of_the_faith
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	DOTF_THREATENED_GREETING_01 = {
@@ -590,7 +590,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_carefree_hippies
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CH_NEUTRAL_GREETING_02 = {
@@ -600,7 +600,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_carefree_hippies
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CH_NEUTRAL_GREETING_03 = {
@@ -610,7 +610,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_carefree_hippies
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CH_THREATENED_GREETING_01 = {
@@ -767,7 +767,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_studious_builders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SB_NEUTRAL_GREETING_02 = {
@@ -777,7 +777,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_studious_builders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SB_NEUTRAL_GREETING_03 = {
@@ -787,7 +787,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_studious_builders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SB_THREATENED_GREETING_01 = {
@@ -944,7 +944,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_hedonistic_visionaries
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	HV_NEUTRAL_GREETING_02 = {
@@ -954,7 +954,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_hedonistic_visionaries
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	HV_NEUTRAL_GREETING_03 = {
@@ -964,7 +964,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_hedonistic_visionaries
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	HV_THREATENED_GREETING_01 = {
@@ -1121,7 +1121,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_generous_philanthropists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GP_NEUTRAL_GREETING_02 = {
@@ -1131,7 +1131,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_generous_philanthropists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GP_NEUTRAL_GREETING_03 = {
@@ -1141,7 +1141,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_generous_philanthropists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GP_THREATENED_GREETING_01 = {
@@ -1298,7 +1298,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_adventure_seekers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	AS_NEUTRAL_GREETING_02 = {
@@ -1308,7 +1308,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_adventure_seekers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	AS_NEUTRAL_GREETING_03 = {
@@ -1318,7 +1318,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_adventure_seekers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	AS_THREATENED_GREETING_01 = {
@@ -1475,7 +1475,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_splendid_isolationists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SI_NEUTRAL_GREETING_02 = {
@@ -1485,7 +1485,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_splendid_isolationists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SI_NEUTRAL_GREETING_03 = {
@@ -1495,7 +1495,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_splendid_isolationists
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SI_THREATENED_GREETING_01 = {
@@ -1652,7 +1652,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_psychotic_hordes
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PH_NEUTRAL_GREETING_02 = {
@@ -1662,7 +1662,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_psychotic_hordes
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PH_NEUTRAL_GREETING_03 = {
@@ -1672,7 +1672,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_psychotic_hordes
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	PH_THREATENED_GREETING_01 = {
@@ -1829,7 +1829,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_totalitarian_patriots
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	TP_NEUTRAL_GREETING_02 = {
@@ -1839,7 +1839,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_totalitarian_patriots
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	TP_NEUTRAL_GREETING_03 = {
@@ -1849,7 +1849,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_totalitarian_patriots
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	TP_THREATENED_GREETING_01 = {
@@ -2006,7 +2006,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_insecure_imitators
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	IM_NEUTRAL_GREETING_02 = {
@@ -2016,7 +2016,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_insecure_imitators
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	IM_NEUTRAL_GREETING_03 = {
@@ -2026,7 +2026,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_insecure_imitators
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	IM_THREATENED_GREETING_01 = {
@@ -2181,7 +2181,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_efficient_bureaucrats
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EB_NEUTRAL_GREETING_02 = {
@@ -2191,7 +2191,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_efficient_bureaucrats
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EB_NEUTRAL_GREETING_03 = {
@@ -2201,7 +2201,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_efficient_bureaucrats
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EB_THREATENED_GREETING_01 = {
@@ -2357,7 +2357,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_guerilla_fighters
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GF_NEUTRAL_GREETING_02 = {
@@ -2367,7 +2367,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_guerilla_fighters
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GF_NEUTRAL_GREETING_03 = {
@@ -2377,7 +2377,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_guerilla_fighters
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	GF_THREATENED_GREETING_01 = {
@@ -2532,7 +2532,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_civilized_nomads
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CN_NEUTRAL_GREETING_02 = {
@@ -2542,7 +2542,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_civilized_nomads
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CN_NEUTRAL_GREETING_03 = {
@@ -2552,7 +2552,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_civilized_nomads
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	CN_THREATENED_GREETING_01 = {
@@ -2709,7 +2709,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_traders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	ST_NEUTRAL_GREETING_02 = {
@@ -2719,7 +2719,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_traders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	ST_NEUTRAL_GREETING_03 = {
@@ -2729,7 +2729,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_traders
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	ST_THREATENED_GREETING_01 = {
@@ -2884,7 +2884,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_sublime_porte
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SP_NEUTRAL_GREETING_02 = {
@@ -2894,7 +2894,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_sublime_porte
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SP_NEUTRAL_GREETING_03 = {
@@ -2904,7 +2904,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_sublime_porte
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SP_THREATENED_GREETING_01 = {
@@ -3059,7 +3059,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_enterprising_corsairs
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EC_NEUTRAL_GREETING_02 = {
@@ -3069,7 +3069,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_enterprising_corsairs
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EC_NEUTRAL_GREETING_03 = {
@@ -3079,7 +3079,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_enterprising_corsairs
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	EC_THREATENED_GREETING_01 = {
@@ -3234,7 +3234,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_soldiers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SLS_NEUTRAL_GREETING_02 = {
@@ -3244,7 +3244,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_soldiers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SLS_NEUTRAL_GREETING_03 = {
@@ -3254,7 +3254,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_slave_soldiers
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	SLS_THREATENED_GREETING_01 = {
@@ -3409,7 +3409,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_warrior_mystics
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	WM_NEUTRAL_GREETING_02 = {
@@ -3419,7 +3419,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_warrior_mystics
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	WM_NEUTRAL_GREETING_03 = {
@@ -3429,7 +3429,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = map_warrior_mystics
 			NOT = { is_at_war_with = FROM }
-			is_wary_to = FROM
+			is_neutral_to = FROM
 		}
 	}
 	WM_THREATENED_GREETING_01 = {
