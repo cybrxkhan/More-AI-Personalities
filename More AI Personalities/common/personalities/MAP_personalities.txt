@@ -618,7 +618,7 @@ map_adventure_seekers = {
 		}	
 		modifier = {
 			factor = 1
-			election_type = democratic
+			has_election_type = democratic
 		}	
 	}
 }
@@ -1235,7 +1235,7 @@ map_sublime_porte = {
 	}
 	
 	weight_modifier = {
-		weight = 10
+		weight = 5 #10?
 		modifier = {
 			factor = 1
 			OR = {
@@ -1244,7 +1244,7 @@ map_sublime_porte = {
 			}
 		}	
 		modifier = {
-			factor = -1
+			factor = 1
 			NOT = {
 				has_government = enlightened_monarchy
 				has_government = irenic_monarchy
@@ -1252,10 +1252,10 @@ map_sublime_porte = {
 				has_government = star_empire			
 			}
 		}
-		#modifier = {
-		#	factor = 1
-		#	has_election_type = oligarchy
-		#}						
+		modifier = {
+			factor = -1
+			has_election_type = democratic
+		}						
 	}	
 }
 
