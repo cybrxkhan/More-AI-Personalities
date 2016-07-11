@@ -421,7 +421,7 @@ map_hedonistic_visionaries = {
 	}
 	
 	weight_modifier = {
-		weight = 10 #20?	
+		weight = 5 #20?	
 		modifier = {
 			factor = 2
 			OR = {
@@ -746,7 +746,7 @@ map_psychotic_hordes = {
 	}
 	
 	weight_modifier = {
-		weight = 10 #20?	
+		weight = 3333 #20?	
 		modifier = {
 			factor = 2
 			OR = {
@@ -966,7 +966,7 @@ map_efficient_bureaucrats = {
 			}
 		}
 		modifier = {
-			factor = 1		
+			factor = 2		
 			OR = {
 				has_ethic = "ethic_materialist"
 				has_ethic = "ethic_fanatic_materialist"
@@ -1175,6 +1175,70 @@ map_slave_traders = {
 	}	
 }
 
+#aspiring precursors
+map_aspiring_precursors = { 
+	aggressiveness = 0.8
+	trade_willingness = 1.0
+	bravery = 0.8
+	
+	military_spending = 1.0
+	colony_spending = 1.1	
+	
+	alliance_acceptance = 30
+	federation_acceptance = -50	
+	
+	threat_modifier = 1.3
+	friction_modifier = 1.1
+
+	behaviour = {
+		conqueror = no
+		subjugator = yes
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = yes
+		migrator = yes
+		propagator = no
+		ideologue = no	
+		multispecies = yes
+	}
+	
+	allow = {
+		NOT = { is_country_type = fallen_empire }
+		OR = {
+			has_ethic = "ethic_xenophile"
+			has_ethic = "ethic_fanatic_xenophile"				
+		}
+		#NOT = {
+		#	has_ethic = "ethic_xenophobe"
+		#	has_ethic = "ethic_fanatic_xenophobe"				
+		#}
+	}
+	
+	weight_modifier = {
+		weight = 10	
+		modifier = {
+			factor = 1
+			OR = {	
+				has_ethic = "ethic_pacifist"
+				has_ethic = "ethic_fanatic_pacifist"
+			}
+		}
+		modifier = {
+			factor = -1
+			OR = {	
+				has_ethic = "ethic_militarist"
+				has_ethic = "ethic_fanatic_militarist"
+			}
+		}		
+	}
+}
+
 #################################################
 # OTTOMAN THEME
 #################################################
@@ -1237,25 +1301,21 @@ map_sublime_porte = {
 	weight_modifier = {
 		weight = 5 #10?
 		modifier = {
-			factor = 1
+			factor = 2
 			OR = {
 				has_ethic = "ethic_xenophile"
 				has_ethic = "ethic_fanatic_xenophile"			
 			}
 		}	
 		modifier = {
-			factor = 1
-			NOT = {
+			factor = 2
+			OR = {
 				has_government = enlightened_monarchy
 				has_government = irenic_monarchy
 				has_government = despotic_empire
 				has_government = star_empire			
 			}
-		}
-		modifier = {
-			factor = -1
-			has_election_type = democratic
-		}						
+		}					
 	}	
 }
 

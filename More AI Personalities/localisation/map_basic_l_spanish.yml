@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
 
  ###################################
  # Personalities
@@ -54,5 +54,7 @@
  personality_map_enterprising_corsairs_desc:0 "Enterprising Corsairs are slavers first and foremost. Though a martial society, they prefer to trade if possible. They can be trusted to not be too aggressive as there's no point in destroying an entire race of potential customers... or slaves. They also tend to be accepting of other cultures - to them, anyone can be a slave or a master."
  personality_map_warrior_mystics:0 "Warrior Mystics"
  personality_map_warrior_mystics_desc:0 "Warrior Mystics follow a brand of martial mysticism. Courageous and cunning, patient and introspective, they seek useful allies - or even masters - but will happily attack those who are weak or have wronged them. They are just as likely to focus on their internal, intellectual development as they are to wage war against their foes."
+ personality_map_aspiring_precursors:0 "Aspiring Precursors"
+ personality_map_aspiring_precursors_desc:0 "Aspiring Precursors believe that by actively teaching and guiding younger races, they will become the fathers and mothers of a prosperous new galactic order. They are amiable as long as they feel like they can do their noble work in peace and aren't being encroached on."
  personality_map_xwedodah:0 "xxxxx"
  personality_map_xwedodah_desc:0 "xxxxx"
