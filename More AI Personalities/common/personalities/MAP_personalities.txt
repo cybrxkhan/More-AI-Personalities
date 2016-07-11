@@ -746,7 +746,7 @@ map_psychotic_hordes = {
 	}
 	
 	weight_modifier = {
-		weight = 3333 #20?	
+		weight = 10	
 		modifier = {
 			factor = 2
 			OR = {
