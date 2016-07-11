@@ -421,7 +421,7 @@ map_hedonistic_visionaries = {
 	}
 	
 	weight_modifier = {
-		weight = 10 #20?	
+		weight = 5 #20?	
 		modifier = {
 			factor = 2
 			OR = {
@@ -1221,7 +1221,7 @@ map_aspiring_precursors = {
 	}
 	
 	weight_modifier = {
-		weight = 3333	
+		weight = 10	
 		modifier = {
 			factor = 1
 			OR = {	
@@ -1301,7 +1301,7 @@ map_sublime_porte = {
 	weight_modifier = {
 		weight = 5 #10?
 		modifier = {
-			factor = 1
+			factor = 2
 			OR = {
 				has_ethic = "ethic_xenophile"
 				has_ethic = "ethic_fanatic_xenophile"			
@@ -1315,11 +1315,7 @@ map_sublime_porte = {
 				has_government = despotic_empire
 				has_government = star_empire			
 			}
-		}
-		modifier = {
-			factor = -1
-			has_election_type = democratic
-		}						
+		}					
 	}	
 }
 

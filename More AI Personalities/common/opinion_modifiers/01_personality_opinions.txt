@@ -169,14 +169,14 @@ opinion_from_personality = {
 			NOT = { is_same_species_class = FROM }			
 		}		
 		modifier = {
-			add = -50
+			add = -25
 			has_ai_personality = map_patronizing_colonizers
 			NOT = { is_same_species = FROM }
 			NOT = { is_subspecies = FROM }			
 			NOT = { is_same_species_class = FROM }			
 		}		
 		modifier = {
-			add = -25
+			add = -10
 			has_ai_personality = map_patronizing_colonizers
 			NOT = { is_same_species = FROM }
 			NOT = { is_subspecies = FROM }
