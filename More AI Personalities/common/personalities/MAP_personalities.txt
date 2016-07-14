@@ -1299,16 +1299,16 @@ map_sublime_porte = {
 	}
 	
 	weight_modifier = {
-		weight = 5 #10?
+		weight = 10
 		modifier = {
-			factor = 2
+			factor = 1
 			OR = {
 				has_ethic = "ethic_xenophile"
 				has_ethic = "ethic_fanatic_xenophile"			
 			}
 		}	
 		modifier = {
-			factor = 2
+			factor = 1
 			OR = {
 				has_government = enlightened_monarchy
 				has_government = irenic_monarchy
