@@ -4087,7 +4087,1307 @@ greetings = {
 			overlord = { is_same_value = FROM }
 			NOT = { is_at_war_with = FROM }
 		}
-	}	
+	}
+
+	#lazy_managers
+	LM_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	LM_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	LM_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	LM_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	LM_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	LM_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	LM_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	LM_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	LM_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	LM_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	LM_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	LM_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			is_at_war_with = FROM
+		}
+	}
+	LM_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			is_at_war_with = FROM
+		}
+	}
+	LM_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			is_at_war_with = FROM
+		}
+	}
+	LM_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_lazy_managers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	
+	#insidious_opportunists
+	IO_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IO_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IO_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IO_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	IO_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	IO_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	IO_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	IO_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	IO_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IO_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IO_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	IO_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			is_at_war_with = FROM
+		}
+	}
+	IO_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			is_at_war_with = FROM
+		}
+	}
+	IO_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			is_at_war_with = FROM
+		}
+	}
+	IO_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_insidious_opportunists
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	
+	#naive_appeasers
+	NA_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	NA_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	NA_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	NA_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	NA_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	NA_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	NA_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	NA_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	NA_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	NA_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	NA_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			NOT = { is_at_war_with = FROM }
+			#is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	NA_WAR_GREETING_01 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			is_at_war_with = FROM
+		}
+	}
+	NA_WAR_GREETING_02 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			is_at_war_with = FROM
+		}
+	}
+	NA_WAR_GREETING_03 = {
+		weight = {
+			weight = 20
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			is_at_war_with = FROM
+		}
+	}
+	NA_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_naive_appeasers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
+	#experts in xenocide
+	EIX_GENERIC_GREETING_01 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_02 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_03 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_04 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_05 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_06 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_07 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_08 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_09 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_10 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_11 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_12 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_13 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_14 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_15 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_16 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_17 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_18 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_19 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_20 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	
+	EIX_GENERIC_GREETING_21 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_22 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_23 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_24 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_25 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_26 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_27 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_28 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_29 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_GENERIC_GREETING_30 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+				is_neutral_to = FROM
+				is_threatened_to = FROM
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EIX_WAR_GREETING_01 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_02 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_03 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_04 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_05 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_06 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_07 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_08 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_09 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_10 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+
+	EIX_WAR_GREETING_11 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_12 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_13 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_14 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_15 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_16 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_17 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_18 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_19 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_WAR_GREETING_20 = {
+		weight = {
+			weight = 99 # innovative, sustainable solutions for modern problems
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			is_at_war_with = FROM
+		}
+	}
+	EIX_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_02 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_03 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_04 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_05 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_06 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_07 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_08 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_09 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+	EIX_VASSAL_GREETING_10 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = map_experts_in_xenocide
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+		}
+	}
+
 	
 }
 
@@ -4194,6 +5494,46 @@ action_declare_war = {
 		}
 		# map_psychotic_hordes
 		PH_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 50
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_psychotic_hordes
+				}
+			}
+		}
+		PH_DOW_PROPOSE_02 = {
+			weight = {
+				weight = 50
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_psychotic_hordes
+				}
+			}
+		}
+		PH_DOW_PROPOSE_03 = {
+			weight = {
+				weight = 50
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_psychotic_hordes
+				}
+			}
+		}
+		PH_DOW_PROPOSE_04 = {
+			weight = {
+				weight = 50
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_psychotic_hordes
+				}
+			}
+		}
+		PH_DOW_PROPOSE_05 = {
 			weight = {
 				weight = 50
 			}
@@ -4321,6 +5661,140 @@ action_declare_war = {
 			trigger = {
 				FROM = {
 					has_ai_personality = map_aspiring_precursors
+				}
+			}
+		}
+		# map_lazy_managers
+		LM_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_lazy_managers
+				}
+			}
+		}
+		# map_insidious_opportunists
+		IO_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_insidious_opportunists
+				}
+			}
+		}
+		# map_naive_appeasers
+		NA_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 10
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_naive_appeasers
+				}
+			}
+		}
+		# map_experts_in_xenocide
+		EIX_DOW_PROPOSE_01 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_02 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_03 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_04 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_05 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_06 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_07 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_08 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_09 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
+				}
+			}
+		}
+		EIX_DOW_PROPOSE_10 = {
+			weight = {
+				weight = 99 # efficient, customer-centered, outside the box thinking
+			}
+			trigger = {
+				FROM = {
+					has_ai_personality = map_experts_in_xenocide
 				}
 			}
 		}
