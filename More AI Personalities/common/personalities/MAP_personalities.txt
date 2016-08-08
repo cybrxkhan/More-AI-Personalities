@@ -1546,7 +1546,7 @@ map_warrior_mystics = {
 
 map_lazy_managers = { 
 	aggressiveness = 0.4
-	trade_willingness = 1.0
+	trade_willingness = 1.1
 	bravery = 0.4
 	
 	military_spending = 0.8
