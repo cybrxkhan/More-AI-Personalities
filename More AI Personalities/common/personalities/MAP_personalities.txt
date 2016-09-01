@@ -1295,7 +1295,7 @@ map_depraved_breeders = {
 	}
 	
 	weight_modifier = {
-		weight = 5	
+		weight = 7	
 		modifier = {
 			factor = 1
 			OR = {	
@@ -1373,7 +1373,7 @@ map_dwellers_in_the_ephemeral = {
 	}
 	
 	weight_modifier = {
-		weight = 10
+		weight = 8
 		modifier = {
 			factor = 3
 			has_trait = "trait_fleeting"
